@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="" Description="">
+  <Navbar client:load />
+  <div class="container mx-auto p-4">
+  <h1>Digital Sublimation On Hats</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/embroidery/digitally-printed-and-digitally-sublimated-caps-los-angeles-wholesale-bulk-pricing-high-volume-production.jpg"
+      alt="Digital Sublimation On Hats"
+      width="500"
+      height="500"
+    />
+    <figcaption>Custom Embroidery on Denim Services </figcaption>
+  </figure>
+  <div class="text-content">
+  <p>With our digital printing capabilities, we are able to digitize your artwork and create sublimated panels for your hats. We can also create matching panels.</p>
+
+ <p>Bulk, wholesale pricing for high volume productions is available.</p>
+</div></div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

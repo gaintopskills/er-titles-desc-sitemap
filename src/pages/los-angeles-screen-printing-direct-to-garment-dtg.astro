@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="Direct to Garment (DTG) & Screen Printing Services in LA" Description="High-quality DTG printing with fast turnaround. We offer plastisol, water-based inks, foils, glitter, & more for vibrant, durable prints. Call today!">
+  <Navbar client:load />
+   <div class="container mx-auto p-4">
+  <div class="image-text-container">
+  <h1>Direct To Garment DTG</h1>
+
+  <p>We pride ourselves with quick turn time printing samples and production. With all the screen printing techniques we provide such as plastisol, water based inks, foils, flocking, crystalina, glitters, caviar beads, etc, E&R Unlimited is your best source for screen printing services. We also provide photorealistic prints using Direct To Garment Printing (DTG). Call us for more details.</p>
+
+</div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

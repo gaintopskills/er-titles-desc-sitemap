@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="" Description="">
+  <Navbar client:load />
+  <div class="container mx-auto p-4">
+  <h1>Custom Baseball Cap Embroidery</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/embroidery/INVICTUS-Embroidered-Cap-Los-Angeles.jpg"
+      alt="Custom Baseball Cap Embroidery"
+      width="500"
+      height="500"
+    />
+    <figcaption>Custom Baseball Cap Embroidery</figcaption>
+  </figure>
+  <div class="text-content">
+  <p>One of our popular services is Custom Baseball Cap Embroidery. We make caps in many different variations and always accommodate customer’s needs and desires. We offer: embroidered caps, custom printed caps, sublimated caps, digitally printed caps. We also  manufacture embroidered patches for caps and then stitch them on.</p>
+
+<p>Bulk, wholesale pricing for high volume productions is available.</p>
+</div></div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Logos } from '../components/Logos.jsx'
+import { Slider } from '../components/Slider.jsx'
+import { Samples } from '../components/Samples.jsx'
+import { Hero } from '../components/Hero.jsx'
+import { Features1 } from '../components/Features1.jsx'
+import { Features2 } from '../components/Features2.jsx'
+import { Services } from '../components/Services.jsx'
+import { Testimonials } from '../components/Testimonials.jsx'
+import { FeaturesDiagonal } from '../components/FeaturesDiagonal.jsx'
+import { Pricing } from '../components/Pricing.jsx'
+import { Brands } from '../components/Brands.jsx'
+import { Slider } from '../components/Slider.jsx'
+import { Features2 } from '../components/Features2.jsx'
+import { Blog } from '../components/Blog'
+import { Gallery4 } from '../components/Gallery4'
+import { FAQ } from '../components/FAQ.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+import '../styles/Theme.css'
+import '../styles/Diagonals.css'
+---
+
+<Layout title="Onsite Embroidery Events | Live Custom Embroidery Services" Description="Create unforgettable events with live onsite embroidery. Perfect for brand activations, trade shows & corporate events. Personalize gifts in seconds.">
+  <Navbar client:load />
+  <Gallery4 client:load />
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

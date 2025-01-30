@@ -1,0 +1,29 @@
+---
+import Layout from '../../../../layouts/Layout.astro'
+import { Navbar } from '../../../../components/Navbar.jsx'
+import { Footer } from '../../../../components/Footer.jsx'
+import { ScrollUpButton } from '../../../../components/ScrollUpButton.jsx'
+---
+<Layout title="Custom Jacket Embroidery Services" Description="">
+  <Navbar client:load />
+  <div class="container mx-auto p-4">
+  <h1>Custom Jacket Embroidery Services</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/embroidery/los-angeles-fashion-embroidery-frame-denim-jacket-by-sasha.jpg"
+      alt="Custom Jacket Embroidery Services"
+      width="500"
+      height="500"
+    />
+    <figcaption>Custom Jacket Embroidery Services</figcaption>
+  </figure>
+  <div class="text-content">
+<p>We love working with fashion brands like FRAME Denim. This was truly an artwork that model Sasha designed.</p>
+
+<p>Sasha Pivovarova, a Russian supermodel and an amazing artist , collaborated with denim brand Frame on a limited-edition 4 piece embroidered denim collection. These exclusive designs were inspired by Sasha’s hand drawn botanical illustrations.</p>
+</div></div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

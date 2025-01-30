@@ -1,0 +1,28 @@
+---
+import Layout from '../../../../layouts/Layout.astro'
+import { Navbar } from '../../../../components/Navbar.jsx'
+import { Footer } from '../../../../components/Footer.jsx'
+import { ScrollUpButton } from '../../../../components/ScrollUpButton.jsx'
+---
+<Layout title="A Bikini a Day by Guess! Event at Mondrian Hotel Sky Bar" Description="">
+  <Navbar client:load />
+  <div class="container mx-auto p-4">
+  <h1>A Bikini a Day by Guess! Event at Mondrian Hotel Sky Bar</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/events/bikini-guess/new-line-of-bikini-embroidery-los-angeles.jpg"
+      alt="A Bikini a Day by Guess! Event at Mondrian Hotel Sky Bar"
+      width="500"
+      height="500"
+    />
+    <figcaption>A Bikini a Day by Guess! Event at Mondrian Hotel Sky Bar</figcaption>
+  </figure>
+  <div class="text-content">
+<p>Mondrian hotel held a Bikini a Day event by Guess! at the Sky Bar for the new swimwear collection.</p>
+<p>We were invited to customize embroidered towels for the special guests.</p>
+</div></div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

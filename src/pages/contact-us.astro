@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
+---
+
+<Layout title="E&R Unlimited | Custom Apparel & Embellishment Services" Description="Contact E&R Unlimited for expert embroidery, screen printing, DTG & more. Schedule an appointment, request a free quote, or explore our gallery">
+  <Navbar client:load />
+  <div class="container mx-auto p-4">
+  <h1>Contact Us</h1>
+  <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/embroidery/high-end-fashion-product-development-services.jpg"
+      alt="High-End Fashion Product Development Services"
+      width="500"
+      height="500"
+    />
+    <figcaption>High-End Fashion Product Development Services</figcaption>
+  </figure>
+  <div class="text-content">
+  <p>We provide a wide range of services such as custom embroidery, patches, screen printing, direct to garment digital printing(DTG), digital sublimation, and heat transfer.</p>
+
+<p>Feel free to contact E&R Unlimited for any questions about our custom, high-quality services. Call or email us to schedule an appointment or fill out a form for your FREE quote.</p>
+
+<h2>What to expect at the appointment</h2>
+
+<p>We can show you a wide variety of samples of our work and advise you on the best techniques for your specific design or projects in detail. The tour of our facility can help you realize endless possibilities with E&R Unlimited.</p>
+<h2>What we provide</h2>
+
+<p>We provide full package services that include removing and sewing labels, folding, bagging, and tagging.</p>
+
+<h2>Blanks</h2>
+
+<p>If you do not have your blanks, don’t worry, we can help you with blanks such as t-shirts, hats, jackets, joggers, crewnecks, and hoodies to name a few.</p>
+<h2>Our Gallery</h2>
+
+<p>Visit our gallery to see the end products of our patches, embroidery, sublimation, DTG, and screen printing.</p>
+<h2>Office:</h2>
+
+<p>3000 S. Santa Fe. Ave Unit B<br>
+Vernon, CA 90058<br>
+info@eandrunlimited.com<br>
+Call us:(323)584-3000<br>
+Fax:(323)580-6848
+</p>
+</div></div>
+</div>
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>
