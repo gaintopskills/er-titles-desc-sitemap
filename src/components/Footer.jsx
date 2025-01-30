@@ -29,7 +29,6 @@ const footerData = [
       { label: "Custom Hat Embroidery", href: "/custom-embroidered-hats-los-angeles/", title: "Receive expert brand consulting" },
       { label: "Beanie Embroidery", href: "/personalized-custom-beanie-embroidery-los-angeles-high-volume-production-wholesale-pricing/", title: "Receive expert brand consulting" },
       { label: "Sublimation On Hats", href: "/wholesale-sublimation-printing-cap-manufacturer-custom-digital-print-snapback-cap/", title: "Receive expert brand consulting" },
-      
     ],
   },
   {
@@ -37,8 +36,8 @@ const footerData = [
     items: [
       { label: "About Us", href: "/about-us/", title: "Learn more about our company" },
       { label: "Contact Us", href: "/contact-us/", title: "Get in touch with us" },
-      { label: "Privacy Policy", href: "/privacy-policy/", title: "Get in touch with us" },
-      
+      { label: "Privacy Policy", href: "/privacy-policy/", title: "Read our privacy policy" },
+      { label: "Sitemap", href: "/sitemap.xml", title: "View our sitemap" },
       {
         type: "map",
         content: (
@@ -99,10 +98,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            {/* Footer Columns */}
             <div className="w-full lg:w-2/3 lg:pl-16 hidden lg:flex flex-wrap justify-between">
-              
-              {/* Services Column */}
               {footerData.map((section, index) => (
                 <div key={index} className="w-full md:w-1/3  mb-16 md:mb-0">
                   <h3 className="mb-6 text-2xl font-bold text-primaryText">
@@ -122,7 +118,7 @@ export const Footer = () => {
                           <a
                             className="text-gray-400 hover:text-gray-300 text-sm"
                             href={item.href}
-                            title={item.title}  // Adds tooltip title
+                            title={item.title}
                             aria-label={item.label}
                           >
                             {item.label}
@@ -133,7 +129,6 @@ export const Footer = () => {
                   </ul>
                 </div>
               ))}
-
             </div>
           </div>
         </div>
