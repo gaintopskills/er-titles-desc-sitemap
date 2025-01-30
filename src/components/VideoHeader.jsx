@@ -21,15 +21,15 @@ export const VideoHeader = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
         <div className="bg-black/50 p-6 rounded-lg backdrop-blur-md shadow-lg">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white">
-            Los Angeles Custom Embroidery
+          Los Angeles Custom Embroidery Services - Unlimited Potential
           </h1>
           <img
-            src="/content/custom-embroidery-logo.webp"
+            src="/embroidery/high-end-fashion-product-development-services.jpg"
             alt="E&R Unlimited Logo"
             className="w-32 md:w-48 mx-auto my-4"
           />
           <p className="text-lg md:text-xl text-gray-300">
-            High-quality embroidery services trusted by top brands & celebrities.
+          We create custom patches, couture apparel, corporate logos, and more. Embroidery services are our specialty!
           </p>
         </div>
       </div>
