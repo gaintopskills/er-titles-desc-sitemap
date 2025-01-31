@@ -117,17 +117,17 @@ export const Navbar = () => {
 <PhoneIcon />
   (323) 584-3000
 </a>
-            <div className="w-36 mx-auto lg:mx-0">
+<div className="w-36 mx-auto lg:mx-0">
             <a
-                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] "
-                  href="#"
-                  aria-label="Twitter"
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
+                  href="https://www.tiktok.com/@eandrunlimited"
+                  aria-label="TiktokIcon" target="_blank"
                 >
                   <TiktokIcon />
                 </a>
                 <a
-                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] "
-                  href="#"
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
+                  href="https://www.instagram.com/eandrunlimited/" target="_blank"
                   aria-label="Instagram"
                 >
                   <InstagramIcon />

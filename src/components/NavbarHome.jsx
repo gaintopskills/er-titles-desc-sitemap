@@ -139,14 +139,14 @@ export const NavbarHome = () => {
             <div className="w-36 mx-auto lg:mx-0">
             <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
-                  href="#"
-                  aria-label="Twitter"
+                  href="https://www.tiktok.com/@eandrunlimited"
+                  aria-label="TiktokIcon" target="_blank"
                 >
                   <TiktokIcon />
                 </a>
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
-                  href="#"
+                  href="https://www.instagram.com/eandrunlimited/" target="_blank"
                   aria-label="Instagram"
                 >
                   <InstagramIcon />
