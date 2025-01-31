@@ -13,7 +13,7 @@ export const StitchingAnimation = () => {
   }, []);
 
   return (
-    <div className="image-container">
+    <div className="image-container relative">
       <img
         src="/e-and-r-unlimited-custom-wholesale-embroidery-services.webp" // Assuming the image is placed in the "public" folder
         alt="Fading Image"
@@ -21,19 +21,19 @@ export const StitchingAnimation = () => {
         style={{
           width: "90vw", // Full width of the viewport
           height: "90vh", // Full height of the viewport
-        
         }}
       />
-  {/* Scroll Down Indicator (Appears After Image Loads) */}
-  <div
-        className={`absolute bottom-10 flex justify-center transition-opacity duration-1000 ${
+
+      {/* Scroll Down Indicator (Appears After Image Loads) */}
+      <div
+        className={`absolute bottom-10 flex justify-end transition-opacity duration-1000 w-full ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="animate-bounce">
+        <div className="animate-bounce mr-8"> {/* Margin Right for Spacing */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-10 h-10 text-white opacity-40 "
+            className="w-10 h-10 text-white opacity-40"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
