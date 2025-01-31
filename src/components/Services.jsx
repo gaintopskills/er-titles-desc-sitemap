@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 
 const services = [
   {
+    title: "Cut and Sew",
+    description:
+      "Our Cut and Sew services provide complete customization, from pattern creation to finished products. Whether it's unique apparel, uniforms, or tailored designs, we ensure precision, quality, and attention to detail in every stitch.",
+    image: "/icons/cut-and-sew.webp",
+    link: "/cut-and-sew/",
+  },
+  {
     title: "Embroidery",
     description:
       "We offer high-quality embroidery from custom patches to intricate applications for polo shirts, jackets, caps, workwear, and business shirts.",
@@ -29,13 +36,6 @@ const services = [
       "We utilize state-of-the-art Mimaki and Italian Monti Antonio machines to deliver top-quality digital sublimation services. All production is done in-house, ensuring exceptional results with speed and precision!",
       image: "/icons/digital-sublimation-services.webp",
       link: "/los-angeles-digital-sublimation-printing/",
-  },
-  {
-    title: "Cut and Sew",
-    description:
-      "Our Cut and Sew services provide complete customization, from pattern creation to finished products. Whether it's unique apparel, uniforms, or tailored designs, we ensure precision, quality, and attention to detail in every stitch.",
-    image: "/icons/cut-and-sew.webp",
-    link: "/cut-and-sew/",
   },
   {
     title: "Heat Transfer",
