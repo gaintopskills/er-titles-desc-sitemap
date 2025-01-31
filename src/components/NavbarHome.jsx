@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { InstagramIcon } from "../assets/icons/InstagramIcon";
+import { TiktokIcon } from "../assets/icons/TiktokIcon";
+import PhoneIcon from "../phone.png";
 
 import { TailcastLogo } from '../assets/logos/TailcastLogo';
 import { GithubIcon } from '../assets/icons/GithubIcon';
@@ -101,9 +104,31 @@ export const NavbarHome = () => {
         {/* GitHub link */}
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} exit={{ opacity: 0 }}>
           <div className="grow basis-0 justify-end hidden lg:flex">
-            <a className="text-white main-border-gray rounded-xl bg-bgDark2 hover:bg-bgDark3 border-gray-700 pl-4 pr-6 pt-2 pb-2 text-sm flex" href="https://github.com/matt765/Tidestream" target="_blank" aria-label="source code">
-              <span className="pt-px">Call: (323)584-3000</span>
-            </a>
+            {/* Phone Number with PNG Icon */}
+<a
+  className="text-white main-border-gray rounded-xl bg-bgDark2 hover:bg-bgDark3 border-gray-700 pl-4 pr-6 pt-2 pb-2 text-sm flex items-center"
+  href="tel:+13235843000"
+  aria-label="Call us"
+>
+  <img src={PhoneIcon} alt="Phone Icon" className="w-5 h-5 mr-2" />
+  (323) 584-3000
+</a>
+            <div className="w-36 mx-auto lg:mx-0">
+            <a
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  href="#"
+                  aria-label="Twitter"
+                >
+                  <TiktokIcon />
+                </a>
+                <a
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  href="#"
+                  aria-label="Instagram"
+                >
+                  <InstagramIcon />
+                </a>
+           </div>
           </div>
         </motion.div>
 
@@ -158,8 +183,9 @@ export const NavbarHome = () => {
                 </div>
               ))}
               <a className="outlined-button pl-4 pr-6 pt-2 pb-2 flex" href="https://github.com/matt765/Tidestream" target="_blank">
-                Call: (323)584-3000
+              📞: (323)584-3000
               </a>
+             
             </div>
           </motion.div>
         )}
