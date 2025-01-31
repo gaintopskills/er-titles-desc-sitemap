@@ -2,10 +2,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TiktokIcon } from "../assets/icons/TiktokIcon";
-import { PhoneIcon } from "../assets/icons/PhoneIcon";
-
-
 import { TailcastLogo } from '../assets/logos/TailcastLogo';
+import { PhoneIcon } from "../assets/icons/PhoneIcon";
 import { GithubIcon } from '../assets/icons/GithubIcon';
 
 const navbarLinks = [
@@ -42,7 +40,12 @@ export const NavbarHome = () => {
     <nav className="w-full h-20 flex flex-col justify-center items-center fixed bg-black lg:bg-blackTransparent z-40 lg:backdrop-blur-xl bg-opacity-70" aria-label="Main navigation">
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.3 }} exit={{ opacity: 0 }}>
-          
+          {/* ✅ Tailcast Logo on the Left */}
+        <div className="flex items-center">
+          <a href="/" aria-label="Tailcast Home">
+            <TailcastLogo className="h-10 w-auto mr-6" /> 
+          </a>
+        </div>
         </motion.div>
 
         {/* Desktop Main menu links */}
@@ -116,14 +119,14 @@ export const NavbarHome = () => {
 </a>
             <div className="w-36 mx-auto lg:mx-0">
             <a
-                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
                   href="#"
                   aria-label="Twitter"
                 >
                   <TiktokIcon />
                 </a>
                 <a
-                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem]"
                   href="#"
                   aria-label="Instagram"
                 >
