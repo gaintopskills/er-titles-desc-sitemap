@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TiktokIcon } from "../assets/icons/TiktokIcon";
-import PhoneIcon from "../assets/icons/phone.png"; 
+import { PhoneIcon } from "../assets/icons/PhoneIcon";
+
 
 import { TailcastLogo } from '../assets/logos/TailcastLogo';
 import { GithubIcon } from '../assets/icons/GithubIcon';
@@ -110,7 +111,7 @@ export const NavbarHome = () => {
   href="tel:+13235843000"
   aria-label="Call us"
 >
-<img src={PhoneIcon} alt="Phone Icon" className="w-5 h-5 mr-2" />
+<PhoneIcon />
   (323) 584-3000
 </a>
             <div className="w-36 mx-auto lg:mx-0">
@@ -182,9 +183,14 @@ export const NavbarHome = () => {
                   )}
                 </div>
               ))}
-              <a className="outlined-button pl-4 pr-6 pt-2 pb-2 flex" href="https://github.com/matt765/Tidestream" target="_blank">
-              📞: (323)584-3000
-              </a>
+             <a
+  className="text-white main-border-gray rounded-xl bg-bgDark2 hover:bg-bgDark3 border-gray-700 pl-4 pr-6 pt-2 pb-2 text-sm flex items-center"
+  href="tel:+13235843000"
+  aria-label="Call us"
+>
+<PhoneIcon />
+  (323) 584-3000
+</a>
              
             </div>
           </motion.div>
