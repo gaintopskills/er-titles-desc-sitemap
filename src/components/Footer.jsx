@@ -23,17 +23,17 @@ const footerData = [
       { label: "About Us", href: "/about-us/", title: "Learn more about our company" },
       { label: "Contact Us", href: "/contact-us/", title: "Get in touch with us" },
       { label: "Privacy Policy", href: "/privacy-policy/", title: "Read our privacy policy" },
-      { label: "Sitemap", href: "/sitemap.xml", title: "View our sitemap" },
+     
     ],
   },
   {
     title: "Connect",
     items: [
-      { label: "Address", },
+      { label: "3000 S. Santa Fe. Ave Unit B" },
+    { label: "Vernon, CA 90058" },
       { label: "info@eandrunlimited.com", },
-      { label: "Call Us: (323)584-3000" },
+      { label: "Call Us: (323)584-3000", href: "tel:+13235843000", title: "Call us now" },
       { label: "Fax:(323)580-6848 " },
-      { label: "Sitemap", href: "/sitemap.xml", title: "View our sitemap" },
       {
         type: "map",
         content: (
@@ -50,6 +50,7 @@ const footerData = [
           </div>
         ),
       },
+      { label: "Sitemap", href: "/sitemap.xml", title: "View our sitemap" },
     ],
   },
 ];
