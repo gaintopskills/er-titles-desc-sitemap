@@ -2,6 +2,7 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TiktokIcon } from "../assets/icons/TiktokIcon";
+import { PhoneIconG } from "../assets/icons/PhoneIconG";
 
 const footerData = [
   {
@@ -32,7 +33,16 @@ const footerData = [
       { label: "3000 S. Santa Fe. Ave Unit B" },
     { label: "Vernon, CA 90058" },
       { label: "info@eandrunlimited.com", },
-      { label: "Call Us: (323)584-3000", href: "tel:+13235843000", title: "Call us now" },
+      {
+        label: (
+          <span className="inline-flex items-center space-x-1">
+            <PhoneIconGß className="w-1 h-1 text-gray-400 hover:text-gray-300" />
+            <a href="tel:+13235843000" title="Call us now" className="text-gray-400 hover:text-gray-300 text-xs">
+              (323) 584-3000
+            </a>
+          </span>
+        ),
+      },
       { label: "Fax:(323)580-6848 " },
       {
         type: "map",
