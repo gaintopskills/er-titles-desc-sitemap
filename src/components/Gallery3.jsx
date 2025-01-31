@@ -111,7 +111,7 @@ export const Gallery3 = () => {
               {/* Custom Caption */}
               {relativeIndex === 0 && ( // Only display caption for the middle image
                 <div
-                  className="bg-gray-800 text-white text-sm md:text-lg p-2 rounded-lg shadow-md"
+                  className="text-white text-sm md:text-lg p-2 rounded-lg shadow-md"
                   dangerouslySetInnerHTML={{ __html: captions[index] }} // Allow HTML captions
                 ></div>
               )}
