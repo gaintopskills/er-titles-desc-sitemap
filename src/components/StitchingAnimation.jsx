@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const StitchingAnimation = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [showIndicator, setShowIndicator] = useState(true); // Controls visibility of scroll indicator
 
   useEffect(() => {
     // Trigger the fade-in effect after the component mounts
@@ -9,7 +10,22 @@ export const StitchingAnimation = () => {
       setIsVisible(true);
     }, 100); // 100ms delay to ensure smooth fade-in
 
-    return () => clearTimeout(timer); // Clean up the timer on unmount
+    return () => clearTimeout(timer); // Cleanup
+  }, []);
+
+  useEffect(() => {
+    // Function to hide the scroll indicator when scrolling down and show when back at the top
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setShowIndicator(false);
+      } else {
+        setShowIndicator(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll); // Cleanup event listener
   }, []);
 
   return (
@@ -25,28 +41,30 @@ export const StitchingAnimation = () => {
       />
 
       {/* Scroll Down Indicator (Appears After Image Loads) */}
-      <div
-        className={`absolute bottom-10 flex justify-end transition-opacity duration-1000 w-full ${
-          isVisible ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        <div className="animate-bounce mr-12"> {/* Margin Right for Spacing */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-10 h-10 text-white opacity-40"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M19 9l-7 7-7-7"
-            />
-          </svg>
+      {showIndicator && (
+        <div
+          className={`absolute bottom-10 flex justify-end transition-opacity duration-1000 w-full ${
+            isVisible ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <div className="animate-bounce mr-12"> {/* Margin Right for Spacing */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-10 h-10 text-white opacity-40"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
