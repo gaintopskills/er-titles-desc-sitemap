@@ -28,6 +28,18 @@ export const StitchingAnimation = () => {
     return () => window.removeEventListener("scroll", handleScroll); // Cleanup event listener
   }, []);
 
+  // Function to scroll smoothly to the h1 tag
+  const scrollToHeading = () => {
+    const heading = document.querySelector("h1"); // Selects the first h1 on the page
+    if (heading) {
+      const yOffset = -100; // Adjust the offset to scroll 200px higher
+      const y = heading.getBoundingClientRect().top + window.scrollY + yOffset;
+  
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+  
+
   return (
     <div className="image-container relative">
       <img
@@ -47,7 +59,11 @@ export const StitchingAnimation = () => {
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="animate-bounce mr-12"> {/* Margin Right for Spacing */}
+          <button
+            onClick={scrollToHeading} // Calls function on click
+            className="animate-bounce mr-12 focus:outline-none"
+            aria-label="Scroll Down"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-10 h-10 text-white opacity-40"
@@ -62,7 +78,7 @@ export const StitchingAnimation = () => {
                 d="M19 9l-7 7-7-7"
               />
             </svg>
-          </div>
+          </button>
         </div>
       )}
     </div>
