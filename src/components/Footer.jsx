@@ -36,14 +36,14 @@ const footerData = [
       {
         label: (
           <span className="inline-flex items-center space-x-1">
-            <PhoneIconGß className="w-1 h-1 text-gray-400 hover:text-gray-300" />
+            <PhoneIconG className="w-1 h-1 text-gray-400 hover:text-gray-300" />
             <a href="tel:+13235843000" title="Call us now" className="text-gray-400 hover:text-gray-300 text-xs">
               (323) 584-3000
             </a>
           </span>
         ),
       },
-      { label: "Fax:(323)580-6848 " },
+      { label: "Open: Mon - Fri " },
       {
         type: "map",
         content: (
