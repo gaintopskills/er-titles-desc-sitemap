@@ -32,7 +32,7 @@ export const StitchingAnimation = () => {
   const scrollToHeading = () => {
     const heading = document.querySelector("h1"); // Selects the first h1 on the page
     if (heading) {
-      const yOffset = -100; // Adjust the offset to scroll 200px higher
+      const yOffset = -150; // Adjust the offset to scroll 200px higher
       const y = heading.getBoundingClientRect().top + window.scrollY + yOffset;
   
       window.scrollTo({ top: y, behavior: "smooth" });
