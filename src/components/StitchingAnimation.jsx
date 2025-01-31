@@ -30,7 +30,7 @@ export const StitchingAnimation = () => {
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="animate-bounce mr-8"> {/* Margin Right for Spacing */}
+        <div className="animate-bounce mr-12"> {/* Margin Right for Spacing */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-10 h-10 text-white opacity-40"
