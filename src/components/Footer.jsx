@@ -4,33 +4,7 @@ import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TiktokIcon } from "../assets/icons/TiktokIcon";
 
 const footerData = [
-  {
-    title: "Services", href: "/fashion-industry/", title: "Explore our apparel embelishment services and more",
-    items: [
-      { label: "Embroidery", href: "/custom-patches-los-angeles/", title: "Explore our embroidery services" },
-      { label: "Screen Printing", href: "/screen-printing-dirrect-to-guarment/", title: "Learn about screen printing" },
-      { label: "DTG", href: "/los-angeles-screen-printing-direct-to-garment-dtg/", title: "Discover Direct to Garment (DTG) printing" },
-      { label: "Digital Sublimation", href: "/los-angeles-digital-sublimation-printing/", title: "View our sublimation printing options" },
-      { label: "Heat Transfer", href: "/los-angeles-heat-transfer/", title: "Find out more about heat transfer printing" },
-      { label: "Cut & Sew", href: "/cut-and-sew/", title: "Get custom cut & sew manufacturing" },
-      { label: "Blank Apparel", href: "/blank-apparel/", title: "Browse our blank apparel collection" },
-      { label: "Events", href: "/onsite-live-embroidery-events-los-angeles/", title: "Browse our blank apparel collection" },
-    ],
-  },
-  {
-    title: "Other Services",
-    items: [
-      { label: "Custom Patches", href: "/custom-patches-los-angeles/", title: "Order custom patches for your brand" },
-      { label: "Photographic Embroidery", href: "/los-angeles-photographic-embroidery/", title: "Get professional logo design services" },
-      { label: "Promotional Products", href: "/2017/11/05/promotional-products/", title: "Create custom labels and tags" },
-      { label: "Screen Printing Vs DTG", href: "/screen-printing-dirrect-to-guarment/", title: "Launch your own private label brand" },
-      { label: "3D Puff Embroidery", href: "/3d-puff-hat-embroidery-in-los-angeles/", title: "Receive expert brand consulting" },
-      { label: "Baseball Cap Embroidery", href: "/custom-embroidered-caps-los-angeles-screen-printed-and-sublimated-caps-wholesale/", title: "Receive expert brand consulting" },
-      { label: "Custom Hat Embroidery", href: "/custom-embroidered-hats-los-angeles/", title: "Receive expert brand consulting" },
-      { label: "Beanie Embroidery", href: "/personalized-custom-beanie-embroidery-los-angeles-high-volume-production-wholesale-pricing/", title: "Receive expert brand consulting" },
-      { label: "Sublimation On Hats", href: "/wholesale-sublimation-printing-cap-manufacturer-custom-digital-print-snapback-cap/", title: "Receive expert brand consulting" },
-    ],
-  },
+  
   {
     title: "Company",
     items: [
@@ -38,6 +12,12 @@ const footerData = [
       { label: "Contact Us", href: "/contact-us/", title: "Get in touch with us" },
       { label: "Privacy Policy", href: "/privacy-policy/", title: "Read our privacy policy" },
       { label: "Sitemap", href: "/sitemap.xml", title: "View our sitemap" },
+     
+    ],
+  },
+  {
+    title: "Where To Find Us",
+    items: [
       {
         type: "map",
         content: (
@@ -76,14 +56,14 @@ export const Footer = () => {
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
-                  href="#"
-                  aria-label="Twitter"
+                  href="https://www.tiktok.com/@eandrunlimited"
+                  aria-label="TiktokIcon" target="_blank"
                 >
                   <TiktokIcon />
                 </a>
                 <a
                   className="inline-block w-10 h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
-                  href="#"
+                  href="https://www.instagram.com/eandrunlimited/" target="_blank"
                   aria-label="Instagram"
                 >
                   <InstagramIcon />
