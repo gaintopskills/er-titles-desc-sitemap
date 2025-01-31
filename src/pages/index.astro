@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import { StitchingAnimation } from '../components/StitchingAnimation.jsx'
-import { Navbar } from '../components/Navbar.jsx'
+import { NavbarHome } from '../components/NavbarHome.jsx'
 import { Logos } from '../components/Logos.jsx'
 import { Testimonials } from '../components/Testimonials.jsx'
 import { ServicesSection } from '../components/Services.jsx'
@@ -11,7 +11,7 @@ import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
 ---
 
 <Layout title="Custom Apparel & Embroidery | LA’s One-Stop Shop - 30+ Years" description="LA's High-quality custom apparel. We specialize in embroidery, screen printing, DTG, sublimation, heat transfer, and cut & sew services (323) 584-3000">
-  <Navbar client:load />
+  <NavbarHome client:load />
   <StitchingAnimation client:idle />
     <Logos client:visible /> 
      <h1>LA's One Stop Shop For All Your Customized Apparel Needs For 30+ Years</h1>
