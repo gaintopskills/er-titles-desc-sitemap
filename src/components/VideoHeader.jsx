@@ -68,34 +68,34 @@ export const VideoHeader = () => {
         </div>
       </div>
 
-      {/* 🔻 Scroll Indicator */}
-      {showIndicator && (
-        <div
-          className={`pr-10 absolute bottom-10 flex justify-end w-full transition-opacity duration-1000 ${
-            isVisible ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <button
-            onClick={scrollToHeading}
-            className="animate-bounce focus:outline-none"
-            aria-label="Scroll Down"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-10 h-10 text-gray-400 opacity-60"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </button>
-        </div>
+     {/* 🔻 Scroll Indicator (Fixed & Clickable) */}
+{showIndicator && (
+  <div
+    className={`absolute bottom-10 right-10 z-50 flex transition-opacity duration-1000 ${
+      isVisible ? "opacity-100" : "opacity-0"
+    }`}
+  >
+    <button
+      onClick={scrollToHeading}
+      className="animate-bounce focus:outline-none"
+      aria-label="Scroll Down"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-10 h-10 text-gray-400 opacity-60 hover:text-gray-300"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M19 9l-7 7-7-7"
+        />
+      </svg>
+    </button>
+  </div>
       )}
     </div>
   );
