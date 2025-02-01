@@ -35,16 +35,15 @@ export const ScreenorintingHeader = () => {
   return (
     <div className="relative w-full h-screen flex flex-col md:flex-row overflow-hidden">
       {/* 🎥 TikTok Video Embed */}
-      <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
-        <blockquote 
-          className="tiktok-embed w-full h-full rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]" 
-          cite="https://www.tiktok.com"
-          data-video-id="7342430167750661403"
-          style={{ maxWidth: "100%", minWidth: "300px", height: "100%" }}
-        >
-          <section> </section>
-        </blockquote>
-        <script async src="https://www.tiktok.com/embed.js"></script>
+      <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden flex items-center justify-center">
+        <iframe
+          className="w-full h-full rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
+          src="https://www.tiktok.com/embed/7342430167750661403"
+          title="TikTok Video"
+          allowFullScreen
+          allow="autoplay; encrypted-media"
+          loading="lazy"
+        ></iframe>
       </div>
 
       {/* 🔥 Overlay */}
