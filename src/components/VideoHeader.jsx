@@ -71,7 +71,7 @@ export const VideoHeader = () => {
       {/* 🔻 Scroll Indicator */}
       {showIndicator && (
         <div
-          className={`absolute bottom-10 flex justify-center w-full transition-opacity duration-1000 ${
+          className={`pr-10 absolute bottom-10 flex justify-end w-full transition-opacity duration-1000 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
