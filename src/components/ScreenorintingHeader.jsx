@@ -5,22 +5,17 @@ export const ScreenorintingHeader = () => {
   const [showIndicator, setShowIndicator] = useState(true);
 
   useEffect(() => {
-    // Fade-in effect when component mounts
+    // Fade-in effect
     const timer = setTimeout(() => {
       setIsVisible(true);
     }, 100);
-
     return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
     // Hide scroll indicator when scrolling
     const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowIndicator(false);
-      } else {
-        setShowIndicator(true);
-      }
+      setShowIndicator(window.scrollY <= 20);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -39,19 +34,17 @@ export const ScreenorintingHeader = () => {
 
   return (
     <div className="relative w-full h-screen flex flex-col md:flex-row overflow-hidden">
-      {/* 🎥 TikTok Video Background */}
+      {/* 🎥 TikTok Video Embed */}
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
-        <div className="relative w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]">
-          <blockquote
-            className="tiktok-embed"
-            cite="https://www.tiktok.com"
-            data-video-id="7342430167750661403"
-            style={{ maxWidth: "100%", minHeight: "100%" }}
-          >
-            <section> </section>
-          </blockquote>
-          <script async src="https://www.tiktok.com/embed.js"></script>
-        </div>
+        <blockquote 
+          className="tiktok-embed w-full h-full rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]" 
+          cite="https://www.tiktok.com"
+          data-video-id="7342430167750661403"
+          style={{ maxWidth: "100%", minWidth: "300px", height: "100%" }}
+        >
+          <section> </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
       </div>
 
       {/* 🔥 Overlay */}
@@ -90,7 +83,11 @@ export const ScreenorintingHeader = () => {
               stroke="currentColor"
               strokeWidth={2}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
             </svg>
           </button>
         </div>
