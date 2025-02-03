@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import { Navbar } from '../components/Navbar.jsx'
+import { HeaderEvents } from '../components/HeaderEvents.jsx'
 import { EventsGallery } from '../components/EventsGallery.jsx'
 import { EventFAQ } from '../components/EventFAQ.jsx'
 import { Footer } from '../components/Footer.jsx'
@@ -8,6 +9,7 @@ import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
 ---
 <Layout title="" Description="">
  <Navbar client:load />
+ <HeaderEvents client:load />
   <div class="container mx-auto p-4">
   <h1>Onsite Embroidery Events</h1>
   <div class="image-text-container">
