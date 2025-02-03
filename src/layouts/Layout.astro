@@ -873,6 +873,17 @@ border-radius: 15px;}
   transform: scaleX(1);
 }
 /*End UNDERLINED TEXT----*/
+
+/* block container without other content floating into it------- */
+.block-container {
+  display: block;
+  width: 100%;
+  overflow: hidden; /* Prevents floating elements from affecting next section */
+  padding: 40px 0; /* Adds spacing */
+  clear: both; /* Ensures new section starts properly*/
+}
+
+/* End block container without other content floating into it------- */
     </style>
   </body>
 </html>
