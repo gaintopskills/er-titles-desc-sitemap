@@ -40,11 +40,11 @@ import { ScreenorintingHeader } from '../components/ScreenorintingHeader.jsx'
   <!-- Text Content (Left Side) -->
   <div class="md:w-1/2 text-content text-center md:text-left">
     <ul class="space-y-4">
-      <li><strong>Top-Tier Quality:</strong><br>We use the latest screen printing technology and high-quality inks to ensure vibrant, long-lasting prints.</li>
-      <li><strong>Custom Designs:</strong><br>Our expert team helps bring your creative vision to life with precision and detail.</li>
-      <li><strong>Fast Turnaround:</strong><br>Need your order quickly? We offer efficient production times to meet your deadlines.</li>
-      <li><strong>Bulk Discounts:</strong><br>We provide competitive pricing and special discounts for bulk orders.</li>
-      <li><strong>Eco-Friendly Printing:</strong><br>We use sustainable inks and materials to reduce environmental impact.</li>
+      <li><i class="underline-text">Top-Tier Quality:</i><br>We use the latest screen printing technology and high-quality inks to ensure vibrant, long-lasting prints.</li>
+      <li><i class="underline-text">Custom Designs:</i><br>Our expert team helps bring your creative vision to life with precision and detail.</li>
+      <li><i class="underline-text">Fast Turnaround:</i><br>Need your order quickly? We offer efficient production times to meet your deadlines.</li>
+      <li><i class="underline-text">Bulk Discounts:</i><br>We provide competitive pricing and special discounts for bulk orders.</li>
+      <li><i class="underline-text">Eco-Friendly Printing:</i><br>We use sustainable inks and materials to reduce environmental impact.</li>
     </ul>
   </div>
 
@@ -63,28 +63,31 @@ import { ScreenorintingHeader } from '../components/ScreenorintingHeader.jsx'
 <div class="image-text-container">
   <h2 class="text-center text-white text-3xl font-bold mb-6">Who We Serve & How It Works</h2>
 
-  <!-- Two Column Layout -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-white text-lg max-w-5xl mx-auto">
+  <!-- Two Column Layout with Divider -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-start text-white text-lg max-w-5xl mx-auto relative">
     
     <!-- Left Column - Who We Serve -->
     <div class="text-center">
-      <h3 class="text-2xl font-bold mb-4">Who We Serve</h3>
+      <h3 class="text-2xl mb-4">Who We Serve</h3>
       <ul class="space-y-4">
-        <li><span class="underline-text">Clothing Brands & Fashion Designers:</span><br>High-quality prints for independent designers and retail brands.</li>
-        <li><span class="underline-text">Businesses & Corporations:</span><br>Custom uniforms, promotional merchandise, and branding materials.</li>
-        <li><span class="underline-text">Schools & Universities:</span><br>Spirit wear, club t-shirts, and sports team apparel.</li>
-        <li><span class="underline-text">Event Organizers:</span><br>Custom apparel for concerts, festivals, charity events, and fundraisers.</li>
+        <li><i class="underline-text">Clothing Brands & Fashion Designers:</i><br>High-quality prints for independent designers and retail brands.</li>
+        <li><i class="underline-text">Businesses & Corporations:</i><br>Custom uniforms, promotional merchandise, and branding materials.</li>
+        <li><i class="underline-text">Schools & Universities:</i><br>Spirit wear, club t-shirts, and sports team apparel.</li>
+        <li><i class="underline-text">Event Organizers:</i><br>Custom apparel for concerts, festivals, charity events, and fundraisers.</li>
       </ul>
     </div>
 
+    <!-- Divider Line (Thin) - Only Visible on Desktop -->
+    <div class="hidden md:block absolute left-1/2 top-0 h-full w-px bg-gray-500"></div>
+
     <!-- Right Column - How It Works -->
     <div class="text-center">
-      <h3 class="text-2xl font-bold mb-4">How It Works</h3>
+      <h3 class="text-2xl mb-4">How It Works</h3>
       <ol class="space-y-4">
-        <li><span class="underline-text">Submit Your Design:</span> <br>Upload your artwork or work with our designers to create something unique.</li>
-        <li><span class="underline-text">Choose Your Apparel:</span> <br>Select from a wide range of high-quality garments and materials.</li>
-        <li><span class="underline-text">Approve Your Proof:</span> <br>We provide digital mockups for your approval before production.</li>
-        <li><span class="underline-text">Production & Delivery:</span> <br>Once approved, we print and deliver your order quickly and efficiently.</li>
+        <li><i class="underline-text">Submit Your Design:</i> <br>Upload your artwork or work with our designers to create something unique.</li>
+        <li><i class="underline-text">Choose Your Apparel:</i> <br>Select from a wide range of high-quality garments and materials.</li>
+        <li><i class="underline-text">Approve Your Proof:</i> <br>We provide digital mockups for your approval before production.</li>
+        <li><i class="underline-text">Production & Delivery:</i> <br>Once approved, we print and deliver your order quickly and efficiently.</li>
       </ol>
     </div>
 
