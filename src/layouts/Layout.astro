@@ -788,6 +788,59 @@ border-radius: 15px;}
 }
 /* End Image wrapper with float -----*/
 
+/*  Image wrapper with float Right-----*/
+/* Right-aligned image wrapper (mirrors .image-wrapper) */
+.image-wrapper-right {
+  float: right; /* Floats image to the right */
+  width: 40%; /* Ensures it takes up 40% width on large screens */
+  max-width: 500px;
+  margin-left: 20px; /* Adds spacing between image and text */
+}
+
+/* Style for the image inside the wrapper */
+.image-wrapper-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.image-wrapper-right img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2), 3px 2px 3px 0px rgba(0, 0, 0, 0.14), 3px 3px 14px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+/* Caption styling */
+.image-wrapper-right figcaption {
+  font-size: 16px;
+  color: #ddd; /* Light gray for readability on dark background */
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Responsive Design: Stacks Image on Top on Mobile */
+@media (max-width: 768px) {
+  .image-wrapper-right {
+    float: none; /* Removes float so image stacks above text */
+    width: 100%; /* Makes image full width */
+    max-width: 100%;
+    margin-left: 0; /* Removes left margin */
+    text-align: center;
+  }
+
+  .image-wrapper-right img {
+    display: block;
+    margin: 0 auto; /* Centers image */
+    max-width: 300px; /* Prevents it from getting too big */
+  }
+}
+
+/* End Image wrapper with float Right -----*/
+
 /*UNDERLINED TEXT-------*/
 .underline-text {
   position: relative;
