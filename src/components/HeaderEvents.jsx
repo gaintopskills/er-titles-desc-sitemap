@@ -44,7 +44,7 @@ export const HeaderEvents = () => {
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
         <iframe
           className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
-          src="https://www.youtube.com/embed/jJzPBiVfdMI?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=jJzPBiVfdMI"
+          src="https://www.youtube.com/embed/YX7RrMCnVfw&t=2s?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=YX7RrMCnVfw&t=2s"
           title="Background Video"
           allow="autoplay; fullscreen"
           loading="lazy"
@@ -59,11 +59,13 @@ export const HeaderEvents = () => {
       <div className="relative z-10 w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center text-center px-6">
         <div className="bg-black/50 p-6 md:p-10 rounded-lg backdrop-blur-md shadow-[0px_0px_15px_rgba(255,255,255,0.3)] w-full md:w-1/2">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-[0px_0px_10px_rgba(255,255,255,0.5)]">
-            Los Angeles Custom Embroidery Services - Unlimited Potential
+          Onsite Embroidery Events
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-            We create custom patches, couture apparel, corporate logos, and more.
-            Embroidery services are our specialty!
+          Stand Out with Personalized Giveaways! 
+          </p>
+          <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
+          Make a lasting impression by branding your name & marketing your product. Personalize your guest requests with their name or monogram!
           </p>
         </div>
       </div>
