@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export const VideoHeader = () => {
+export const HeaderEmbroidery = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [showIndicator, setShowIndicator] = useState(true);
 
@@ -101,4 +101,4 @@ export const VideoHeader = () => {
   );
 };
 
-export default VideoHeader;
+export default HeaderEmbroidery;
