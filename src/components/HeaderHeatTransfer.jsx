@@ -43,7 +43,7 @@ export const HeaderHeatTransfer = () => {
       {/* 🖼️ Image Background (Replaces Video) */}
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
         <img
-          src="/content/los-angeles-vinal-heat-transfer-services-team-sports-jerseys-apparel-marketing-events.jpg" // Change this path to your actual image
+          src="/heat-transfer/heat-transfer-services-on-tshirts.webp" // Change this path to your actual image
           alt="Custom Cut and Sew Services"
           className="w-full h-full object-cover rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
           style={{ borderRadius: "12px" }} // Ensures the image has rounded corners
@@ -57,10 +57,10 @@ export const HeaderHeatTransfer = () => {
       <div className="relative z-10 w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center text-center px-6">
         <div className="bg-black/50 p-6 md:p-10 rounded-lg backdrop-blur-md shadow-[0px_0px_15px_rgba(255,255,255,0.3)] w-full md:w-1/2">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-[0px_0px_10px_rgba(255,255,255,0.5)]">
-            Custom Cut and Sew
+          Heat Transfer Services
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-            At E&R Unlimited, we specialize in high-volume, custom cut and sew services, offering full-package production for both small and big brands. Whether you're an emerging designer or an established company, we provide the expertise and resources to bring your vision to life.
+          We provide top-quality heat transfer services in Los Angeles? Whether you need custom full-color heat transfers for your business, sports team, fashion apparel, or special event, we offer affordable pricing and premium customer service to bring your designs to life.
           </p>
         </div>
       </div>
