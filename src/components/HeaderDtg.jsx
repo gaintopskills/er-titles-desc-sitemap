@@ -59,10 +59,10 @@ export const HeaderDtg = () => {
       <div className="relative z-10 w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center text-center px-6">
         <div className="bg-black/50 p-6 md:p-10 rounded-lg backdrop-blur-md shadow-[0px_0px_15px_rgba(255,255,255,0.3)] w-full md:w-1/2">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-[0px_0px_10px_rgba(255,255,255,0.5)]">
-          Premiere Screen Printing
+          Direct-to-Garment Printing (DTG)
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-          We offer premium-quality, custom screen printing for businesses, clothing brands, events, and more. Whether you need t-shirts, hoodies, tote bags, or promotional items, we provide durable and vibrant prints that make your designs stand out.
+          We specialize in quick-turnaround printing, ensuring you get top-notch, photorealistic prints in no time! Whether you need custom t-shirts, hoodies, or other apparel, our cutting-edge DTG technology guarantees vibrant, long-lasting designs.
           </p>
         </div>
       </div>
