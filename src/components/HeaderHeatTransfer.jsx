@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export const CutAndSew = () => {
+export const HeaderHeatTransfer = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [showIndicator, setShowIndicator] = useState(true);
 
@@ -40,16 +40,14 @@ export const CutAndSew = () => {
 
   return (
     <div className="relative w-full h-screen flex flex-col md:flex-row overflow-hidden">
-      {/* 🎥 Video Background */}
+      {/* 🖼️ Image Background (Replaces Video) */}
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
-        <iframe
-          className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
-          src="https://www.youtube.com/embed/MWumzCsuS6A?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=MWumzCsuS6A"
-          title="Background Video"
-          allow="autoplay; fullscreen"
-          loading="lazy"
-          style={{ borderRadius: "12px" }}
-        ></iframe>
+        <img
+          src="/content/los-angeles-vinal-heat-transfer-services-team-sports-jerseys-apparel-marketing-events.jpg" // Change this path to your actual image
+          alt="Custom Cut and Sew Services"
+          className="w-full h-full object-cover rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
+          style={{ borderRadius: "12px" }} // Ensures the image has rounded corners
+        />
       </div>
 
       {/* 🔥 Overlay */}
@@ -59,45 +57,45 @@ export const CutAndSew = () => {
       <div className="relative z-10 w-full md:w-1/2 h-1/2 md:h-full flex items-center justify-center text-center px-6">
         <div className="bg-black/50 p-6 md:p-10 rounded-lg backdrop-blur-md shadow-[0px_0px_15px_rgba(255,255,255,0.3)] w-full md:w-1/2">
           <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-[0px_0px_10px_rgba(255,255,255,0.5)]">
-          Custom Cut and Sew
+            Custom Cut and Sew
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-          At E&R Unlimited, we specialize in high-volume, custom cut and sew services, offering full-package production for both small and big brands. Whether you're an emerging designer or an established company, we provide the expertise and resources to bring your vision to life.
+            At E&R Unlimited, we specialize in high-volume, custom cut and sew services, offering full-package production for both small and big brands. Whether you're an emerging designer or an established company, we provide the expertise and resources to bring your vision to life.
           </p>
         </div>
       </div>
 
-     {/* 🔻 Scroll Indicator (Fixed & Clickable) */}
-{showIndicator && (
-  <div
-    className={`absolute bottom-10 right-10 z-50 flex transition-opacity duration-1000 ${
-      isVisible ? "opacity-100" : "opacity-0"
-    }`}
-  >
-    <button
-      onClick={scrollToHeading}
-      className="animate-bounce focus:outline-none"
-      aria-label="Scroll Down"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-10 h-10 text-gray-400 opacity-60 hover:text-gray-300"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        strokeWidth={2}
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M19 9l-7 7-7-7"
-        />
-      </svg>
-    </button>
-  </div>
+      {/* 🔻 Scroll Indicator (Fixed & Clickable) */}
+      {showIndicator && (
+        <div
+          className={`absolute bottom-10 right-10 z-50 flex transition-opacity duration-1000 ${
+            isVisible ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <button
+            onClick={scrollToHeading}
+            className="animate-bounce focus:outline-none"
+            aria-label="Scroll Down"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-10 h-10 text-gray-400 opacity-60 hover:text-gray-300"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </button>
+        </div>
       )}
     </div>
   );
 };
 
-export default CutAndSew;
+export default HeaderHeatTransfer;
