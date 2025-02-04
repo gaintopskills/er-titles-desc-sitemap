@@ -62,7 +62,7 @@ export const HeaderSublimation = () => {
           Digital Sublimation Printing
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-          Unlock the unlimited potential of digital sublimation printing with our state-of-the-art technology. We combine two top-tier machines, the Mimaki digital printer and the Monti Antonio rotary heat press, ensuring superior print quality, vibrant colors, and long-lasting results. 
+          Unlock the unlimited potential of digital sublimation printing with our state-of-the-art technology. We ensuring superior print quality, vibrant colors, and long-lasting results. 
           </p>
         </div>
       </div>
