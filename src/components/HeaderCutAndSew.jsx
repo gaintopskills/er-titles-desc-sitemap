@@ -44,7 +44,7 @@ export const HeaderCutAndSew = () => {
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
         <iframe
           className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
-          src="https://www.youtube.com/embed/MWumzCsuS6A?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=MWumzCsuS6A"
+          src="https://www.youtube.com/embed/KYSIemzxIU4?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=KYSIemzxIU4"
           title="Background Video"
           allow="autoplay; fullscreen"
           loading="lazy"
