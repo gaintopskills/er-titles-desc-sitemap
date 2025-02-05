@@ -26,23 +26,18 @@ export const Gallery4 = () => {
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/embroidery/dtla-los-angeles-custom-adaptation-clothing-fashion-embroidery-design-embroidered-buttoned-long-shirt-red-flowers.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-custom-fashion-embroidery-frame-denim-jacket-by-sasha-designer-clothes.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jacket-by-sasha-designer-apparel.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-artwork.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-embroidery-fashion-frame-denim-jeans-by-sasha-designer-clothes-custom-patches.webp", album: "Embroidery" },
         { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/patches/Los-angeles-embroidery-and-print-best-color-matching-sublimation-vibrancy-and-detail-minneapolis.webp", album: "Embroidery" },
+        
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Embroidery" },
-        { src: "/patches/los-angeles-patches-la-sublimation-and-embroidery-guns-n-roses.webp", album: "Patches" },
-        { src: "/patches/high-quality-custom-patches-los-angeles-beastie-fiery-lion-black-and-white-jacket.webp", album: "Patches" },
-        { src: "/patches/high-fashion-patches-los-angeles-la-frame-denim-black-leather-jacket.webp", album: "Patches" },
+
+        
+        
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Patches" },
-        { src: "/patches/Los-angeles-embroidery-and-print-best-color-matching-sublimation-vibrancy-and-detail-minneapolis.webp", album: "Patches" },
+       
         { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Patches" },
         { src: "/sublimation/digital-sumlimation-hat-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-animal-print-shorts-black-milk-matching-pannels.webp", album: "Sublimation" },
