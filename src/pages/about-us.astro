@@ -7,8 +7,20 @@ import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
 
 <Layout title="About E&R Unlimited | Expert Garment Embellishment in LA" Description="E&R Unlimited - premium embroidery, screen printing, DTG, digital sublimation, heat transfer, cut&sew, fabric printing. Trusted by top brands.">
   <Navbar client:load />
-  <div class="container mx-auto p-4 mt-8">
-  <h1>About E&R Unlimited</h1>
+<div class="container mx-auto p-4">
+   <section class="block-container">
+    <div class="image-text-container">
+  <figure class="image-wrapper">
+    <img
+      src="/about-e-and-r-unlimited.webp"
+      alt="Custom Embroidery on Denim Services"
+      width="500"
+      height="500"
+    />
+    <figcaption>Custom Screen Printing Services</figcaption>
+  </figure>
+  <div class="text-content">
+     <h1>About E&R Unlimited</h1>
   
   <p>E&R Unlimited Inc. is your one stop shop for all garment related needs. With a professional staff, centrally located facility, great customer service, and unsurpassed quality, we have been providing the garment industry with embellishment and fabric printing services for nearly a decade.</p>
 
@@ -17,7 +29,8 @@ import { ScrollUpButton } from '../components/ScrollUpButton.jsx'
 <p>Privacy Terms<p>
 
 <p>“No Mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.</p>
-
+  </div></div>
+</section>
 </div>
   <Footer />
   <ScrollUpButton client:load />
