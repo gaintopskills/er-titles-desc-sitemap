@@ -28,7 +28,9 @@ export const Gallery4 = () => {
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Embroidery" },
+        { src: "/embroidery/metalic-embroidery-services-los-angeles.webp", album: "Embroidery" },
+        { src: "/embroidery/unique-apparel-embroidery-services-los-angeles..webp", album: "Embroidery" },
+        { src: "/embroidery/unique-embroidery-services-los-angeles.webp", album: "Embroidery" },
 
 
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Patches" },
