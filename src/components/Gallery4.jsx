@@ -34,6 +34,7 @@ export const Gallery4 = () => {
 
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Patches" },
+        { src: "/patches/patches-on-hats-services-los-angeles.webp", album: "Patches" },
         { src: "/patches/to-mars-custom-patches-los-angeles.webp", album: "Patches" },
         { src: "/patches/billie-be-custom-patches-los-angeles.webp", album: "Patches" },
         { src: "/patches/be-red-custom-patches-los-angeles.webp", album: "Patches" },
