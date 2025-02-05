@@ -38,13 +38,12 @@ export const Gallery4 = () => {
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Patches" },
        
-        { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Patches" },
+       
         { src: "/sublimation/digital-sumlimation-hat-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-animal-print-shorts-black-milk-matching-pannels.webp", album: "Sublimation" },
-        { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-feathers-printed-skirt-black-milk-matching-pannels.webp", album: "Sublimation" },
-        { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-floral-printed-overalls-black-milk-matching-pannels.webp", album: "Sublimation" },
-        { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-printede-blue-nature-trees-leggins-black-milk-matching-pannels.webp", album: "Sublimation" },
-        { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-printede-gyptian-skirt-black-milk-matching-pannels.webp", album: "Sublimation" },
+        
+        
+
         { src: "/sublimation/DTLA-Downtown-LA-Los-Angeles-Custom-Photographic-embroidery-high-details-quality.webp", album: "Sublimation" },
         { src: "/photographic-embroidery/custom-photographic-embroidery-los-angeles.webp", album: "Photographic Embroidery" },
         { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
