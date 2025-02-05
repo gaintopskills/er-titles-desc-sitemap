@@ -50,9 +50,21 @@ export const Gallery4 = () => {
         { src: "/patches/be-custom-patches-los-angeles.webp", album: "Patches" },
         { src: "/patches/billie-patches-los-angeles.webp", album: "Patches" },
 
+
+        { src: "/sublimation/sublimated-metalic-clothing-services-los-angeles.webp", album: "Sublimation" },
+        { src: "/sublimation/hight-quality-sublimated-clothes-services-los-angeles.webp", album: "Sublimation" },
+        { src: "/sublimation/sublimated-clothes-services-los-angeles.webp", album: "Sublimation" },
+        { src: "/sublimation/sublimation-shirt-seercives-los-angeles.webp", album: "Sublimation" },
+        { src: "/sublimation/sublimation-patches-seercives-los-angeles-snake.webp", album: "Sublimation" },
+        { src: "/sublimation/high-quality-sublimated-patches-seercives-los-angeles.webp", album: "Sublimation" },
+        { src: "/sublimation/bulk-sublimated-patches-seercives-los-angeles.webp", album: "Sublimation" },
+
+
         { src: "/sublimation/digital-sumlimation-hat-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-animal-print-shorts-black-milk-matching-pannels.webp", album: "Sublimation" },
         { src: "/sublimation/DTLA-Downtown-LA-Los-Angeles-Custom-Photographic-embroidery-high-details-quality.webp", album: "Sublimation" },
+        
+        
         { src: "/photographic-embroidery/custom-photographic-embroidery-los-angeles.webp", album: "Photographic Embroidery" },
         { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
         { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
