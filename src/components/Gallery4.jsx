@@ -23,7 +23,6 @@ export const Gallery4 = () => {
         { src: "/embroidery/custom-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/wholesale-custom-embroidered-hats.webp", album: "Embroidery" },
         { src: "/embroidery/wilson-custom-embroidery.webp", album: "Embroidery" },
-        { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
@@ -32,6 +31,9 @@ export const Gallery4 = () => {
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Embroidery" },
 
 
+        { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Patches" },
+        { src: "/patches/american-flag-patches-bulk.webp", album: "Patches" },
+        { src: "/patches/american-flag-patches-high-volume-production.webp", album: "Patches" },
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Patches" },
         { src: "/patches/patches-on-hats-services-los-angeles.webp", album: "Patches" },
@@ -57,7 +59,6 @@ export const Gallery4 = () => {
         { src: "/heat-transfer/t-shirt-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/sleeping-masks-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/heat-transfer-services-on-hats.webp", album: "Heat Transfer" },
-        { src: "/heat-transfer/hat-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/custom-heat-transfer-on-t-shirts-los-angeles.webp", album: "Heat Transfer" },
     ];
 
