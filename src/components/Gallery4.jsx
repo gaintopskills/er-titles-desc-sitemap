@@ -47,11 +47,11 @@ export const Gallery4 = () => {
         { src: "/sublimation/DTLA-Downtown-LA-Los-Angeles-Custom-Photographic-embroidery-high-details-quality.webp", album: "Sublimation" },
         { src: "/photographic-embroidery/custom-photographic-embroidery-los-angeles.webp", album: "Photographic Embroidery" },
         { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
-        { src: "/screen-printing/screen-printing-services-la.webp", album: "Screen Printing" },
+        
         { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
         { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
         { src: "/screen-printing/detailed-screen-printing-services-la.webp", album: "Screen Printing" },
-        { src: "/screen-printing/shirt-screen-printing-services-la.webp", album: "Screen Printing" },
+       
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-skull-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/best-screen-printing-los-angeles.webp", album: "Screen Printing" },
