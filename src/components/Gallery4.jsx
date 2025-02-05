@@ -81,8 +81,8 @@ export const Gallery4 = () => {
         <div className="min-h-screen p-6 bg-black text-white">
            
                 <h1>Gallery</h1>
-           <p>Our diverse embellishment techniques are done in one house and can be combined to create stunning results! See the examples of our work below.</p>
-<p>From simple samples to full-fledged production of 15,000 + units, we are ready to take on any project.</p>
+           <p class="text-center">Our diverse embellishment techniques are done in one house and can be combined to create stunning results! See the examples of our work below.</p>
+<p class="text-center">From simple samples to full-fledged production of 15,000 + units, we are ready to take on any project.</p>
 
             <main className="p-4">
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -93,7 +93,7 @@ export const Gallery4 = () => {
                             className={`px-4 py-2 rounded-md font-bold shadow-md ${
                                 selectedCategory === category
                                     ? "bg-gray-600 text-white"
-                                    : "bg-gray-400 hover:bg-red-800 text-white"
+                                    : "bg-gray-400 hover:bg-gray-700 text-white"
                             }`}
                         >
                             {category}
