@@ -26,32 +26,28 @@ export const Gallery4 = () => {
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
-
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
-        
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Embroidery" },
 
-        
-        
+
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
         { src: "/patches/custom-high-quality-patches-los-angeles-la-justin-bieber-military-jacket-purpose-tour.webp", album: "Patches" },
-       
-       
+        { src: "/patches/to-mars-custom-patches-los-angeles.webp", album: "Patches" },
+        { src: "/patches/billie-be-custom-patches-los-angeles.webp", album: "Patches" },
+        { src: "/patches/be-red-custom-patches-los-angeles.webp", album: "Patches" },
+        { src: "/patches/be-custom-patches-los-angeles.webp", album: "Patches" },
+        { src: "/patches/billie-patches-los-angeles.webp", album: "Patches" },
+
         { src: "/sublimation/digital-sumlimation-hat-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-animal-print-shorts-black-milk-matching-pannels.webp", album: "Sublimation" },
-        
-        
-
         { src: "/sublimation/DTLA-Downtown-LA-Los-Angeles-Custom-Photographic-embroidery-high-details-quality.webp", album: "Sublimation" },
         { src: "/photographic-embroidery/custom-photographic-embroidery-los-angeles.webp", album: "Photographic Embroidery" },
         { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
-        
         { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
         { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
         { src: "/screen-printing/detailed-screen-printing-services-la.webp", album: "Screen Printing" },
-       
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-skull-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/best-screen-printing-los-angeles.webp", album: "Screen Printing" },
@@ -109,22 +105,24 @@ export const Gallery4 = () => {
                 </div>
 
                 {lightboxImage && (
-                    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-                        <div className="relative">
-                            <img
-                                src={lightboxImage.src}
-                                alt={lightboxImage.album}
-                                className="max-w-3xl rounded shadow-lg"
-                            />
-                            <button
-                                onClick={() => setLightboxImage(null)}
-                                className="absolute top-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full"
-                            >
-                                ✖
-                            </button>
-                        </div>
-                    </div>
-                )}
+    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-6">
+        <div className="relative flex items-center justify-center w-full h-full">
+            <img
+                src={lightboxImage.src}
+                alt={lightboxImage.album}
+                className="w-auto h-auto max-w-[90vw] max-h-[90vh] object-contain rounded-lg shadow-2xl"
+            />
+            <button
+                onClick={() => setLightboxImage(null)}
+                className="absolute top-6 right-6 bg-gray-800 text-white p-3 rounded-full text-lg"
+            >
+                ✖
+            </button>
+        </div>
+    </div>
+)}
+
+
             </main>
         </div>
     );
