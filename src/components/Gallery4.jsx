@@ -26,7 +26,7 @@ export const Gallery4 = () => {
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
-        { src: "/patches/DTLA-Downtown-LA-Los-Angeles-Custom-Patches-3d-puff-embroidery-Sequins-embroidery-ADAP.webp", album: "Embroidery" },
+
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
