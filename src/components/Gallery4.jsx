@@ -58,8 +58,6 @@ export const Gallery4 = () => {
         { src: "/sublimation/sublimation-patches-seercives-los-angeles-snake.webp", album: "Sublimation" },
         { src: "/sublimation/high-quality-sublimated-patches-seercives-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/bulk-sublimated-patches-seercives-los-angeles.webp", album: "Sublimation" },
-
-
         { src: "/sublimation/digital-sumlimation-hat-los-angeles.webp", album: "Sublimation" },
         { src: "/sublimation/los-angeles-digital-sublimation-fabric-printing-clothing-animal-print-shorts-black-milk-matching-pannels.webp", album: "Sublimation" },
         { src: "/sublimation/DTLA-Downtown-LA-Los-Angeles-Custom-Photographic-embroidery-high-details-quality.webp", album: "Sublimation" },
@@ -74,6 +72,18 @@ export const Gallery4 = () => {
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/best-screen-printing-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/custom-screen-printing-los-angeles.webp", album: "Screen Printing" },
+        
+        { src: "/heat-transfer/sport-team-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/team-sports-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/expert-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/bulk-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/high-quality-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/heat-transfer-services-on-tshirts.webp", album: "Heat Transfer" },
+ 
+        { src: "/heat-transfer/heat-transfer-labling-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/heat-transfer-on-hats-services-los-angeles-2.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/heat-transfer-labling-services-los-angeles.webp", album: "Heat Transfer" },
+        { src: "/heat-transfer/heat-transfer-on-hats-services-los-angeles-2.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/hat-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/t-shirt-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/sleeping-masks-heat-transfer-services.webp", album: "Heat Transfer" },
