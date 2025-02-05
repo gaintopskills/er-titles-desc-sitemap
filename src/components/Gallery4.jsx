@@ -82,8 +82,6 @@ export const Gallery4 = () => {
  
         { src: "/heat-transfer/heat-transfer-labling-services-los-angeles.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/heat-transfer-on-hats-services-los-angeles-2.webp", album: "Heat Transfer" },
-        { src: "/heat-transfer/heat-transfer-labling-services-los-angeles.webp", album: "Heat Transfer" },
-        { src: "/heat-transfer/heat-transfer-on-hats-services-los-angeles-2.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/hat-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/t-shirt-heat-transfer-services.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/sleeping-masks-heat-transfer-services.webp", album: "Heat Transfer" },
