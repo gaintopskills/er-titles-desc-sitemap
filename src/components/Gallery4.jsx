@@ -13,6 +13,10 @@ export const Gallery4 = () => {
     ];
 
     const images = [
+        { src: "/embroidery/embroidery-services-los-angeles-ca.webp", album: "Embroidery" },
+        { src: "/embroidery/custom-embroidered-denim-jacket-los-angeles.webp", album: "Embroidery" },
+        { src: "/embroidery/custom-embroidered-denim-jacket-selina-gomes.webp", album: "Embroidery" },
+
         { src: "/embroidery/custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/custom-hat-embroidery.webp", album: "Embroidery" },
         { src: "/embroidery/custom-bomber-jacket-embroidery.webp", album: "Embroidery" },
@@ -24,13 +28,14 @@ export const Gallery4 = () => {
         { src: "/embroidery/wholesale-custom-embroidered-hats.webp", album: "Embroidery" },
         { src: "/embroidery/wilson-custom-embroidery.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
-        { src: "/embroidery/los-angeles-custom-embroidery-selena-gomez-custom-selebrity-jacket.webp", album: "Embroidery" },
+
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/embroidery/metalic-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/unique-apparel-embroidery-services-los-angeles..webp", album: "Embroidery" },
         { src: "/embroidery/unique-embroidery-services-los-angeles.webp", album: "Embroidery" },
+      
 
 
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Patches" },
