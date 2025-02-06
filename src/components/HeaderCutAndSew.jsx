@@ -29,14 +29,15 @@ export const HeaderCutAndSew = () => {
         ) : (
           // Video Player After Click
           <iframe
-            className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
-            src="https://www.youtube.com/embed/KYSIemzxIU4?autoplay=1&mute=1&loop=1&controls=1&modestbranding=1&rel=0&playsinline=1"
-            title="Background Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            allowFullScreen
-            loading="lazy"
-            style={{ borderRadius: "12px" }}
-          ></iframe>
+          className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
+          src="https://www.youtube.com/embed/KYSIemzxIU4?autoplay=1&mute=1&loop=1&controls=1&modestbranding=1&rel=0&playsinline=1"
+          title="Background Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+          allowFullScreen
+          loading="lazy"
+          style={{ borderRadius: "12px" }}
+        ></iframe>
+        
         )}
       </div>
 
