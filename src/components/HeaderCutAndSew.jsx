@@ -39,6 +39,7 @@ export const HeaderCutAndSew = () => {
           ></iframe>
         )}
       </div>
+
       {/* 🔥 Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
