@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 
 export const EventsGallery = () => {
     const categories = [
-        "Cotton On",
+        "All",
+         "Cotton On",
         "Guess 3rd Street",
         "Bikini a Day by Guess",
         "Heidi Klum Bra Brunch",
-        "All",
+       
     ];
 
     const images = [
@@ -55,21 +56,25 @@ export const EventsGallery = () => {
            
                 <h1>Gallery</h1>
             <main className="p-4">
-                <div className="flex flex-wrap gap-2 mb-6">
-                    {categories.map((category) => (
-                        <button
-                            key={category}
-                            onClick={() => setSelectedCategory(category)}
-                            className={`px-4 py-2 rounded-md font-bold shadow-md ${
-                                selectedCategory === category
-                                    ? "bg-gray-600 text-white"
-                                    : "bg-gray-400 hover:bg-red-800 text-white"
-                            }`}
-                        >
-                            {category}
-                        </button>
-                    ))}
-                </div>
+            <div className="flex flex-wrap gap-2 mb-6">
+    {categories.map((category, index) => (
+        <div key={category} className="flex items-center">
+            {index !== 0 && <div className="h-5 w-[1px] bg-gray-400 mx-0"></div>} {/* Vertical Line */}
+            <button
+                onClick={() => setSelectedCategory(category)}
+                className={`px-4 py-2 rounded-md font-bold relative transition duration-300 ${
+                    selectedCategory === category
+                        ? "text-white after:w-full after:bg-white"
+                        : "text-white after:bg-gray-500"
+                } 
+                after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:transition-all after:duration-300 hover:after:w-full`}
+            >
+                {category}
+            </button>
+        </div>
+    ))}
+</div>
+
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {filteredImages.map((image, index) => (
