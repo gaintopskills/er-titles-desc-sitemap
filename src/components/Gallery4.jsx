@@ -2,14 +2,16 @@ import React, { useState } from 'react';
 
 export const Gallery4 = () => {
     const categories = [
+        "All",
         "Embroidery",
         "Patches",
         "Sublimation",
-        "Photographic Embroidery",
         "DTG",
         "Screen Printing",
+        "Photographic Embroidery",
+        
         "Heat Transfer",
-        "All",
+        
     ];
 
     const images = [
