@@ -5,10 +5,11 @@ export const Gallery4 = () => {
         "All",
         "Embroidery",
         "Patches",
-        "Sublimation",
-        "DTG",
         "Screen Printing",
+        
+        "DTG",
         "Heat Transfer",
+        "Sublimation",
         
         "Photographic Embroidery",
     ];
