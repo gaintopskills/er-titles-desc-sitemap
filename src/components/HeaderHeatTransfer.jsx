@@ -14,19 +14,18 @@ export const HeaderHeatTransfer = () => {
   }, []);
 
   useEffect(() => {
-    // Hide scroll indicator when scrolling
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowIndicator(false);
-      } else {
-        setShowIndicator(true);
+    const forcePlay = () => {
+      const iframe = document.querySelector("iframe");
+      if (iframe) {
+        iframe.src += "&autoplay=1";
       }
+      window.removeEventListener("click", forcePlay);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+  
+    window.addEventListener("click", forcePlay);
+    return () => window.removeEventListener("click", forcePlay);
   }, []);
-
+  
   // Scroll to <h2> smoothly
   const scrollToHeading = () => {
     const heading = document.querySelector("h2");

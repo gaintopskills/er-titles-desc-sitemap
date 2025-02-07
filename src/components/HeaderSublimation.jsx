@@ -14,17 +14,16 @@ export const HeaderSublimation = () => {
   }, []);
 
   useEffect(() => {
-    // Hide scroll indicator when scrolling
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowIndicator(false);
-      } else {
-        setShowIndicator(true);
+    const forcePlay = () => {
+      const iframe = document.querySelector("iframe");
+      if (iframe) {
+        iframe.src += "&autoplay=1";
       }
+      window.removeEventListener("click", forcePlay);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+  
+    window.addEventListener("click", forcePlay);
+    return () => window.removeEventListener("click", forcePlay);
   }, []);
 
   // Scroll to <h2> smoothly
@@ -46,7 +45,7 @@ export const HeaderSublimation = () => {
           className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
           src="https://www.youtube.com/embed/MWumzCsuS6A?start=3&autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=MWumzCsuS6A"
           title="Background Video"
-          allow="autoplay; fullscreen"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           loading="lazy"
           style={{ borderRadius: "12px" }}
         ></iframe>
