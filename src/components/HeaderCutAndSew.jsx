@@ -14,18 +14,18 @@ export const HeaderCutAndSew = () => {
   }, []);
 
   useEffect(() => {
-    // Hide scroll indicator when scrolling
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowIndicator(false);
-      } else {
-        setShowIndicator(true);
+    const forcePlay = () => {
+      const iframe = document.querySelector("iframe");
+      if (iframe) {
+        iframe.src += "&autoplay=1";
       }
+      window.removeEventListener("click", forcePlay);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+  
+    window.addEventListener("click", forcePlay);
+    return () => window.removeEventListener("click", forcePlay);
   }, []);
+  
 
   // Scroll to <h2> smoothly
   const scrollToHeading = () => {
@@ -45,7 +45,7 @@ export const HeaderCutAndSew = () => {
           className="w-full h-full absolute inset-0 rounded-lg shadow-[0px_0px_15px_rgba(255,255,255,0.2)]"
           src="https://www.youtube.com/embed/KYSIemzxIU4?autoplay=1&mute=1&loop=1&controls=1&modestbranding=1&rel=0&playsinline=1"
           title="Background Video"
-          allow="autoplay; encrypted-media; picture-in-picture"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           loading="lazy"
           style={{ borderRadius: "12px" }}
         ></iframe>
