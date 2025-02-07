@@ -8,10 +8,9 @@ export const Gallery4 = () => {
         "Sublimation",
         "DTG",
         "Screen Printing",
-        "Photographic Embroidery",
-        
         "Heat Transfer",
         
+        "Photographic Embroidery",
     ];
 
     const images = [
