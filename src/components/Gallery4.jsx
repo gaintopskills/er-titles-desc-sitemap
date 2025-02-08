@@ -30,17 +30,14 @@ export const Gallery4 = () => {
         { src: "/embroidery/wholesale-custom-embroidered-hats.webp", album: "Embroidery" },
         { src: "/embroidery/wilson-custom-embroidery.webp", album: "Embroidery" },
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
-
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/embroidery/metalic-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/unique-apparel-embroidery-services-los-angeles..webp", album: "Embroidery" },
         { src: "/embroidery/unique-embroidery-services-los-angeles.webp", album: "Embroidery" },
-      
-
-
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Patches" },
+        
         { src: "/patches/american-flag-patches-bulk.webp", album: "Patches" },
         { src: "/patches/american-flag-patches-high-volume-production.webp", album: "Patches" },
         { src: "/patches/best-custom-patches-los-angeles-la-red-jacket-cactus.webp", album: "Patches" },
@@ -70,14 +67,20 @@ export const Gallery4 = () => {
         
         { src: "/screen-printing/screen-printing-services-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/high-volume-screen-printing-services-los-angeles.webp", album: "Screen Printing" },
-
-        { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
         { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
+        { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
+       
         { src: "/screen-printing/detailed-screen-printing-services-la.webp", album: "Screen Printing" },
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-skull-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
+       
+        { src: "/screen-printing/screen-printing-on-services.webp", album: "Screen Printing" },
+        { src: "/screen-printing/high-quality-screen-printing-services-on-shirts.webp", album: "Screen Printing" },
+        { src: "/screen-printing/screen-printing-on-shirts-services.webp", album: "Screen Printing" },
+        { src: "/screen-printing/metalic-screen-printing-services-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
         { src: "/screen-printing/best-screen-printing-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/custom-screen-printing-los-angeles.webp", album: "Screen Printing" },
+        { src: "/screen-printing/screen-printing-on-tote-bags-2.webp", album: "Screen Printing" },
         
         { src: "/heat-transfer/sport-team-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
         { src: "/heat-transfer/team-sports-heat-transfer-services-los-angeles.webp", album: "Heat Transfer" },
