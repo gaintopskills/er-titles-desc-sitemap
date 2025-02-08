@@ -63,8 +63,13 @@ export const Gallery4 = () => {
         
         
         { src: "/photographic-embroidery/custom-photographic-embroidery-los-angeles.webp", album: "Photographic Embroidery" },
-        { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
+        { src: "/photographic-embroidery/custom-photographic-embroidery-patches-los-angeles.webp", album: "Photographic Embroidery" },
         
+        { src: "/dtg/custom-DIRECT-TO-GARMENT-DIGITAL-PRINTING-services-LOS-ANGELES.webp", album: "DTG" },
+        { src: "/dtg/los-angeles-dtg-direct-to-garment-printing-the-weekend-denim-jacket-we-overdose.webp", album: "DTG" },
+        { src: "/dtg/dtla-los-angeles-custom-adaptation-clothing-denim-jacket-fashion-digital-printing.webp", album: "DTG" },
+        { src: "/dtg/dtg-services-in-los-angees.webp", album: "DTG" },
+
         { src: "/screen-printing/screen-printing-services-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/high-volume-screen-printing-services-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
