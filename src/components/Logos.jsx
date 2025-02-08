@@ -16,6 +16,7 @@ const logos = [
   { src: '/brands/ralph-lauren.webp', alt: 'NTWRK', width: 390, height: 30 },
   { src: '/brands/adidas.webp', alt: 'NTWRK', width: 44, height: 30 },
   { src: '/brands/hmdo.webp', alt: 'NTWRK', width: 77, height: 30 },
+  { src: '/brands/nfl.webp', alt: 'nfl logo', width: 77, height: 30 },
 ];
 
 export const Logos = () => {
