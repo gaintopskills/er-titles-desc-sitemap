@@ -8,6 +8,7 @@ const logos = [
   { src: '/brands/eckhaus-latta.webp', alt: 'Eckhaus Latta Logo', width: 173, height: 20 },
   { src: '/brands/frankies-bikinis.webp', alt: 'Frankies Bikinis Logo', width: 173, height: 20 },
   
+  { src: '/brands/coney-island-picnic.webp', alt: 'Coney Island Picnic Logo', width: 173, height: 20 },
   { src: '/brands/miramar.webp', alt: 'Miramar Logo', width: 173, height: 20 },
   { src: '/brands/aether.webp', alt: 'Aether Logo', width: 173, height: 20 },
   { src: '/brands/us-bank-logo.webp', alt: 'US Bank Logo', width: 173, height: 20 },
