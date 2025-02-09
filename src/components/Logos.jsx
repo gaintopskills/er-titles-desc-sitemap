@@ -6,7 +6,8 @@ const logos = [
   { src: '/brands/nfl.webp', alt: 'NFL Logo', width: 173, height: 20 },
   { src: '/brands/urban-native.webp', alt: 'Urban Native Logo', width: 173, height: 20 },
   { src: '/brands/eckhaus-latta.webp', alt: 'Eckhaus Latta Logo', width: 173, height: 20 },
-  
+  { src: '/brands/frankies-bikinis.webp', alt: 'Frankies Bikinis Logo', width: 173, height: 20 },
+ 
   { src: '/brands/veronica-beard.webp', alt: '30 seconds to mars', width: 189, height: 20 },
   { src: '/brands/crate-and-barrel.webp', alt: '30 seconds to mars', width: 205, height: 30 },
   { src: '/brands/tory-burch.webp', alt: '30 seconds to mars', width: 317, height: 30 },
