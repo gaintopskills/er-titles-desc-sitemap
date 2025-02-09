@@ -1,7 +1,12 @@
 import React from 'react';
 
 const logos = [
-  { src: '/brands/adcolor.webp', alt: 'NTWRK', width: 173, height: 20 },
+  
+  { src: '/brands/adcolor.webp', alt: 'AD Color Logo', width: 173, height: 20 },
+  { src: '/brands/nfl.webp', alt: 'NFL Logo', width: 173, height: 20 },
+  { src: '/brands/urban-native.webp', alt: 'Urban Native Logo', width: 173, height: 20 },
+  { src: '/brands/eckhaus-latta.webp', alt: 'Eckhaus Latta Logo', width: 173, height: 20 },
+  
   { src: '/brands/veronica-beard.webp', alt: '30 seconds to mars', width: 189, height: 20 },
   { src: '/brands/crate-and-barrel.webp', alt: '30 seconds to mars', width: 205, height: 30 },
   { src: '/brands/tory-burch.webp', alt: '30 seconds to mars', width: 317, height: 30 },
