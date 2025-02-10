@@ -5,12 +5,14 @@ const logos = [
   { src: '/brands/adcolor.webp', alt: 'AD Color Logo', width: 173, height: 20 },
   { src: '/brands/nfl.webp', alt: 'NFL Logo', width: 173, height: 20 },
   { src: '/brands/urban-native.webp', alt: 'Urban Native Logo', width: 173, height: 20 },
-  { src: '/brands/beyong-yoga.webp', alt: 'Beyond Yoga Logo', width: 173, height: 20 },
-  { src: '/brands/google-cloud.webp', alt: 'Google Cloud Logo', width: 173, height: 20 },
+ 
 
   { src: '/brands/eckhaus-latta.webp', alt: 'Eckhaus Latta Logo', width: 173, height: 20 },
   { src: '/brands/frankies-bikinis.webp', alt: 'Frankies Bikinis Logo', width: 173, height: 20 },
   { src: '/brands/rare-beauty.webp', alt: 'Rare Beauty Logo', width: 173, height: 20 },
+
+  { src: '/brands/beyong-yoga.webp', alt: 'Beyond Yoga Logo', width: 173, height: 20 },
+  { src: '/brands/google-cloud.webp', alt: 'Google Cloud Logo', width: 173, height: 20 },
   { src: '/brands/caa.webp', alt: 'CAA Logo', width: 173, height: 20 },
   { src: '/brands/wilson-logo.webp', alt: 'Wilson Logo', width: 173, height: 20 },
   
