@@ -59,7 +59,7 @@ export const HeaderHeatTransfer = () => {
           Heat Transfer Services
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-          We provide top-quality heat transfer services in Los Angeles? Whether you need custom full-color heat transfers for your business, sports team, fashion apparel, or special event, we offer affordable pricing and premium customer service to bring your designs to life.
+          We provide top-quality heat transfer services in Los Angeles. Whether you need custom full-color heat transfers for your business, sports team, fashion apparel, or special event, we offer competitive pricing and premium customer service to bring your designs to life.
           </p>
         </div>
       </div>
