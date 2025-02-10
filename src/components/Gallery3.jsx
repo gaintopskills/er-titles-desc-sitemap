@@ -4,25 +4,39 @@ const images = [
   "../slider/bulk-embroidery-services-los-angeles.webp",
   "../slider/wholesale-embroidery-los-angeles.webp",
   "../slider/custom-fashion-embroidey-services-los-angeles.webp",
-  "../slider/bulk-embroidery-services-los-angeles.webp",
   "../slider/high-end-embroidery-los-angeles.webp",
   "../slider/high-volume-embroidery-los-angeles.webp",
-  "../slider/high-end-screen-printing-los-angeles.webp",
   "../slider/deni-jacket-embroidery-los-angeles.webp",
+  "../slider/embroidery-on-towels-los-angeles.webp",
+
+  "../slider/high-end-screen-printing-los-angeles.webp",
+  "../slider/high-end-screen-printing-services-los-angeles.webp",
+  "../slider/custom-screen-printing-services-los-angeles.webp",
+
+  "../slider/high-quality-patches-los-angeles.webp",
+  "../slider/high-volume-paches-production-los-angeles.webp",
+  "../slider/high-end-clothing-embelishment-services-los-angeles.webp",
   "../slider/custom-embroidery-patches-los-angeles.webp",
 ];
 
 // Custom captions corresponding to the images
 const captions = [
-  "Bulk Embroidery Services in Los Angeles",
-  "Wholesale Custom Embroidery in Los Angeles",
-  "Custom Fashion Embroidery Services",
-  "Bulk Embroidery Services",
-  "High-End Embroidery for Custom Designs",
-  "High-Volume Embroidery in Los Angeles",
-  "High-End Screen Printing in Los Angeles",
+  "High-Volume Embroidery Services",
+  "High-End Embroidery For Top Brands",
+  "Custom Fashion Embroidery",
+  "Custom Embroidery on Denim",
+  "Quality Embroidery Services",
   "Denim Jacket Embroidery Services",
-  "Custom Embroidery Patches in LA",
+  "Embroidery on Towels",
+
+  "High-End Screen Printing",
+  "Custom Screen Printing",
+  "Screen Printing For Top Brands",
+
+  "High-Quality Custom Patches",
+  "High-Quality Custom Patches",
+  "High-Quality Custom Patches",
+  "Bulk Custom Patches",
 ];
 
 export const Gallery3 = () => {
