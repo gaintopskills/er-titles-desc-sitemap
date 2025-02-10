@@ -5,28 +5,28 @@ const services = [
   {
     title: "Cut and Sew",
     description:
-      "Our Cut and Sew services provide complete customization, from pattern creation to finished products. Whether it's unique apparel, uniforms, or tailored designs, we ensure precision, quality, and attention to detail in every stitch.",
+      "Our Cut and Sew services provide complete customization offering full package options. Whether it's unique apparel, athletic wear, custom t-shirts, or custom hoodies, we ensure precision, quality, and attention to detail in every stitch.",
     image: "/icons/cut-and-sew.webp",
     link: "/cut-and-sew/",
   },
   {
     title: "Embroidery",
     description:
-      "We offer high-quality embroidery from custom patches to intricate applications for polo shirts, jackets, caps, workwear, and business shirts.",
+      "We offer high-quality embroidery from custom patches to intricate applications for shirts, jackets, caps, workwear, and company apparel.",
     image: "/icons/embroidery-services.webp",
     link: "/custom-embroidery-services-high-volume/",
   },
   {
     title: "Screen Printing",
     description:
-      "We deliver best and competative screen printing products. We are always in the process of collaborating between our sales team and clients to acieve the best color matching and quality ensuring excellent results every time.",
+      "We deliver best and competative screen printing products. Our expirienced team gaurantees the highest quality offering a variety of unique tecniques such as plastisol, water base, high density, or puff prints.",
     image: "/icons/bulk-screen-printing-services.webp",
     link: "/screen-printing-dirrect-to-guarment/",
   },
   {
     title: "DTG - Direct To Garment",
     description:
-      "We specialize in delivering high-quality DTG (Direct To Garment) printing, offering vibrant and durable designs with a smooth finish. Perfect for promotional products, fashion events, or custom clothing lines, we ensure exceptional detail and color accuracy on every garment.",
+      "We specialize in delivering high-quality DTG (Direct To Garment) printing, offering vibrant and durable designs with a smooth finish. Perfect for no hand feel, fashion events, or custom clothing lines, we ensure exceptional detail and color accuracy on every garment.",
     image: "/icons/direct-to-garment-services.webp",
     link: "/los-angeles-screen-printing-direct-to-garment-dtg/",
   },
