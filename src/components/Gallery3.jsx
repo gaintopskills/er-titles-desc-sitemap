@@ -17,6 +17,13 @@ const images = [
   "../slider/high-volume-paches-production-los-angeles.webp",
   "../slider/high-end-clothing-embelishment-services-los-angeles.webp",
   "../slider/custom-embroidery-patches-los-angeles.webp",
+
+
+  "../cut-and-sew/cut-and-sew-services-los-angeles.webp",
+  "../slider/cut-and-sew-services-los-angeles.webp",
+  
+
+  "../slider/onsite-embroidery-events.webp",
 ];
 
 // Custom captions corresponding to the images
@@ -37,6 +44,11 @@ const captions = [
   "High-Quality Custom Patches",
   "High-Quality Custom Patches",
   "Bulk Custom Patches",
+
+  "Cut And Sew Services",
+  "Cut And Sew Services",
+
+  "Onsite Embroidery Events",
 ];
 
 export const Gallery3 = () => {
