@@ -26,7 +26,7 @@ const services = [
   {
     title: "DTG - Direct To Garment",
     description:
-      "We specialize in delivering high-quality DTG (Direct To Garment) printing, offering vibrant and durable designs with a smooth finish. Perfect for no hand feel, fashion events, or custom clothing lines, we ensure exceptional detail and color accuracy on every garment.",
+      "We specialize in delivering high-quality DTG (Direct To Garment) printing, offering vibrant and durable designs with a smooth finish. We ensure exceptional detail and color accuracy on every garment.",
     image: "/icons/direct-to-garment-services.webp",
     link: "/los-angeles-screen-printing-direct-to-garment-dtg/",
   },
@@ -40,7 +40,7 @@ const services = [
   {
     title: "Heat Transfer",
     description:
-      "Premium full-color heat transfer services tailored for businesses, sports teams, fashion, and special events. Enjoy competitive pricing, quick turnaround times, and exceptional customer service.",
+      "Premium full-color heat transfer services tailored for your intricate and vivid designs.",
     image: "/icons/heat-tranfer.webp",
     link: "los-angeles-heat-transfer/",
   },
