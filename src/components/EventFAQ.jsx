@@ -21,7 +21,7 @@ const FAQData = [
     question: "Do you offer various fonts and thread colors?",
     answer: (
       <div>
-        <p>
+        <p className="text-2xl">
           Yes, our machines include up to 6 font choices (see below), and we can also include up to 8 thread colors.
         </p>
         <img
@@ -52,21 +52,13 @@ const FAQData = [
     answer:
       "We usually charge half the rate for commute and setup time, especially when traveling outside our West Coast hub.",
   },
-  {
-    question: "What about the setup and commute time to and from the venue?",
-    answer:
-      "We usually charge half the rate for commute and setup time, especially when traveling outside our West Coast hub.",
-  },
+  
   {
     question: "Do you have minimum charge per event?",
     answer:
       "$2500 for one machine, one operator, and one event.",
   },
-  {
-    question: "How much do you charge per hour and for multiple machines?",
-    answer:
-      "We can provide custom pricing for your event if you provide the information in the Form on this page.",
-  },
+ 
 
 ];
 
