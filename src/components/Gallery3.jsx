@@ -28,27 +28,7 @@ const images = [
 
 // Custom captions corresponding to the images
 const captions = [
-  "High-Volume Embroidery Services",
-  "High-End Embroidery For Top Brands",
-  "Custom Fashion Embroidery",
-  "Custom Embroidery on Denim",
-  "Quality Embroidery Services",
-  "Denim Jacket Embroidery Services",
-  "Embroidery on Towels",
-
-  "High-End Screen Printing",
-  "Custom Screen Printing",
-  "Screen Printing For Top Brands",
-
-  "High-Quality Custom Patches",
-  "High-Quality Custom Patches",
-  "High-Quality Custom Patches",
-  "Bulk Custom Patches",
-
-  "Cut And Sew Services",
-  "Cut And Sew Services",
-
-  "Onsite Embroidery Events",
+ 
 ];
 
 export const Gallery3 = () => {
