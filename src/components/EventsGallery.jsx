@@ -9,7 +9,13 @@ export const EventsGallery = () => {
     ];
 
     const images = [
-        { src: "/events-gallery/cotton-on/20170802_161812a.jpg", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/on-site-embroidery-events-los-angeles.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/on-site-embroidery-events.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/custom-on-site-embroidery-events.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/on-site-embroidery-services.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/promotional-embroidery-events.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/on-site-embroidery-events-custom-design.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/on-site-embroidery-events-at-my-venue.webp", album: "Embroidery" },
        
         { src: "/events-gallery/heat-press/on-site-heat-press-services.webp", album: "Heat Press" },
         { src: "/events-gallery/heat-press/custom-on-site-heat-press-events.webp", album: "Heat Press" },
