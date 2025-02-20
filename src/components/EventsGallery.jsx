@@ -3,45 +3,22 @@ import React, { useState } from 'react';
 export const EventsGallery = () => {
     const categories = [
         "All",
-         "Cotton On",
-        "Guess 3rd Street",
-        "Bikini a Day by Guess",
-        "Heidi Klum Bra Brunch",
+         "Embroidery",
+        "Heat Press",
        
     ];
 
     const images = [
-        { src: "/events-gallery/cotton-on/20170802_161812a.jpg", album: "Cotton On" },
-        { src: "/events-gallery/cotton-on/20170802_161812b.jpg", album: "Cotton On" },
-        { src: "/events-gallery/cotton-on/20170802_161812d.jpg", album: "Cotton On" },
-        { src: "/events-gallery/cotton-on/20170802_161812c.jpg", album: "Cotton On" },
-        { src: "/events-gallery/cotton-on/20170802_161812v.jpg", album: "Cotton On" },
-        { src: "/events-gallery/cotton-on/cotton-on-events-with-custom-embroidered-products-los-angeles-la.jpg", album: "Cotton On" },
-        
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-la.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-ca.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-7.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-6.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-4.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-3.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-2.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products-1.jpg", album: "Guess 3rd Street" },
-        { src: "/events-gallery/guess/Guess-3rd-Street-Store-Event-Custom-Events-with-embroidered-products.jpg", album: "Guess 3rd Street" },
-        
-        { src: "/events-gallery/guess-bikini/guess-bikini1.jpg", album: "Bikini a Day by Guess" },
-        { src: "/events-gallery/guess-bikini/guess-bikini2.jpg", album: "Bikini a Day by Guess" },
-        { src: "/events-gallery/guess-bikini/guess-bikini3.jpg", album: "Bikini a Day by Guess" },
-        { src: "/events-gallery/guess-bikini/guess-bikini4.jpg", album: "Bikini a Day by Guess" },
-        { src: "/events-gallery/guess-bikini/guess-bikini5.jpg", album: "Bikini a Day by Guess" },
-        { src: "/events-gallery/guess-bikini/guess-bikini6.jpg", album: "Bikini a Day by Guess" },
+        { src: "/events-gallery/cotton-on/20170802_161812a.jpg", album: "Embroidery" },
        
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-los-angeles.jpg", album: "Heidi Klum Bra Brunch" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-la-model.jpg", album: "Heidi Klum Bra Brunch" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-la-embroidery-services.jpg", album: "Heidi Klum Bra Brunch" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-la-embroidery-services-2.jpg", album: "Heidi Klum Bra Brunch" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-bra-brunch-la-2017.jpg", album: "Heidi Klum Bra Brunch" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-la.jpg", album: "hHeidi Klum Bra Brunches" },
-        { src: "/events-gallery/heidi-klum/los-angeles-custom-embroidery-event-heidi-klum-Bra-Brunch-dtla.jpg", album: "Heidi Klum Bra Brunch" },
+        { src: "/events-gallery/heat-press/on-site-heat-press-services.webp", album: "Heat Press" },
+        { src: "/events-gallery/heat-press/custom-on-site-heat-press-events.webp", album: "Heat Press" },
+        { src: "/events-gallery/heat-press/on-site-heat-press-events-custom.webp", album: "Heat Press" },
+        { src: "/events-gallery/heat-press/on-site-heat-press-custom-design.webp", album: "Heat Press" },
+        { src: "/events-gallery/heat-press/on-site-heat-press-on-tote-bags.webp", album: "Heat Press" },
+        { src: "/events-gallery/heat-press/on-site-heat-press-events-los-angeles.webp", album: "Heat Press" },
+        4
+        
     ];
 
     const [selectedCategory, setSelectedCategory] = useState("Cotton On");
