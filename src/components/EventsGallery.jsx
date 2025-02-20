@@ -16,6 +16,8 @@ export const EventsGallery = () => {
         { src: "/events-gallery/embroidery/promotional-embroidery-events.webp", album: "Embroidery" },
         { src: "/events-gallery/embroidery/on-site-embroidery-events-custom-design.webp", album: "Embroidery" },
         { src: "/events-gallery/embroidery/on-site-embroidery-events-at-my-venue.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/live-embroidery-events-in-los-angeles.webp", album: "Embroidery" },
+        { src: "/events-gallery/embroidery/onsite-embroidery-ebents-high-volume-production.webp", album: "Embroidery" },
        
         { src: "/events-gallery/heat-press/on-site-heat-press-services.webp", album: "Heat Press" },
         { src: "/events-gallery/heat-press/custom-on-site-heat-press-events.webp", album: "Heat Press" },
