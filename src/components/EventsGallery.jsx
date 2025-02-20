@@ -13,6 +13,10 @@ export const EventsGallery = () => {
 
    const images = [
        { src: "/events-gallery/embroidery/on-site-embroidery-events-los-angeles.webp", album: "Embroidery" },
+       { src: "/events-gallery/embroidery/high-end-live-embroidery-events.webp", album: "Embroidery" },
+       { src: "/events-gallery/embroidery/big-live-embroidery-events.webp", album: "Embroidery" },
+       { src: "/events-gallery/embroidery/custom-design-onsite-embroidery-evets.webp", album: "Embroidery" },
+
        { src: "/events-gallery/embroidery/on-site-embroidery-events.webp", album: "Embroidery" },
        { src: "/events-gallery/embroidery/custom-on-site-embroidery-events.webp", album: "Embroidery" },
        { src: "/events-gallery/embroidery/on-site-embroidery-services.webp", album: "Embroidery" },
