@@ -43,7 +43,7 @@ export const HeaderEvents = () => {
       <div className="relative w-full md:w-1/2 h-1/2 md:h-full md:ml-5 overflow-hidden">
         <iframe
           className="w-full h-full absolute inset-0 rounded-lg "
-          src="https://www.youtube.com/embed/y7uPiMRRWLg?start=11&autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=y7uPiMRRWLg"
+          src="https://www.youtube.com/embed/y7uPiMRRWLg?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&playlist=y7uPiMRRWLg"
           title="Background Video"
           allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
           loading="lazy"
