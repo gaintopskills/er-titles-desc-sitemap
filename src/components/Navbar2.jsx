@@ -16,7 +16,7 @@ const navbarLinks = [
       { label: 'DTG', href: '/sub-feature5', ariaLabel: 'Sub-feature 5', image: '/menu//dtg-services.webp' },
       { label: 'Digital Sublimation', href: '/sub-feature6', ariaLabel: 'Sub-feature 6', image: '/menu//digital-sublimation.webp' },
       { label: 'Heat Transfer', href: '/sub-feature7', ariaLabel: 'Sub-feature 7', image: '/menu//heat-transfer-services.webp' },
-      { label: 'Cut & Saw', href: '/sub-feature6', ariaLabel: 'Sub-feature 6', image: '/menu//cut-and-sew.webp' },
+      { label: 'Cut & Sew', href: '/sub-feature6', ariaLabel: 'Sub-feature 6', image: '/menu//cut-and-sew.webp' },
       { label: 'Blank Apparel', href: '/sub-feature6', ariaLabel: 'Sub-feature 6', image: '/menu//blank-apparel.webp' },
     ],
   },
