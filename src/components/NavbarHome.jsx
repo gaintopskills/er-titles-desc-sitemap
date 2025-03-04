@@ -19,7 +19,7 @@ const navbarLinks = [
       { label: 'DTG', href: '/los-angeles-screen-printing-direct-to-garment-dtg/', ariaLabel: 'Sub-feature 5'},
       { label: 'Digital Sublimation', href: '/los-angeles-digital-sublimation-printing/', ariaLabel: 'Sub-feature 6'},
       { label: 'Heat Transfer', href: '/los-angeles-heat-transfer/', ariaLabel: 'Sub-feature 7'},
-      { label: 'Cut & Saw', href: '/cut-and-sew/', ariaLabel: 'Sub-feature 6'},
+      { label: 'Cut & Sew', href: '/cut-and-sew/', ariaLabel: 'Sub-feature 6'},
     ],
   },
   { label: 'Galley', href: '../custom-embroidery-services', ariaLabel: 'Galley' },
