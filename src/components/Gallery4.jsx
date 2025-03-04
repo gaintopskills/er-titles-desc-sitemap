@@ -77,17 +77,21 @@ export const Gallery4 = () => {
 
         { src: "/screen-printing/screen-printing-services-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/high-volume-screen-printing-services-los-angeles.webp", album: "Screen Printing" },
-        { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
-        { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
-       
-        { src: "/screen-printing/detailed-screen-printing-services-la.webp", album: "Screen Printing" },
+   
+      
+        { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-green-long-sleeve-hoodie-skeletons-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
+        { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
+        { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-long-sleeve-shirt-and-tee-skeletons-mason-joe-perez-Resurrection-collection-front-green-letters(1).webp", album: "Screen Printing" },
         { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-skull-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
+        { src: "/screen-printing/tank-top-screen-printing-services-la.webp", album: "Screen Printing" },
+        { src: "/screen-printing/detailed-screen-printing-services-la.webp", album: "Screen Printing" },
        
         { src: "/screen-printing/screen-printing-on-services.webp", album: "Screen Printing" },
-        { src: "/screen-printing/high-quality-screen-printing-services-on-shirts.webp", album: "Screen Printing" },
         { src: "/screen-printing/screen-printing-on-shirts-services.webp", album: "Screen Printing" },
+        { src: "/screen-printing/high-quality-screen-printing-services-on-shirts.webp", album: "Screen Printing" },
+        { src: "/screen-printing/hoodie-screen-printing-services.webp", album: "Screen Printing" },
         { src: "/screen-printing/metalic-screen-printing-services-los-angeles.webp", album: "Screen Printing" },
-        { src: "/screen-printing/dtla-los-angeles-custom-fashion-screen-printing-black-t-shirt-snake-mason-joe-perez-Resurrection-collection-back.webp", album: "Screen Printing" },
+
         { src: "/screen-printing/best-screen-printing-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/custom-screen-printing-los-angeles.webp", album: "Screen Printing" },
         { src: "/screen-printing/screen-printing-on-tote-bags-2.webp", album: "Screen Printing" },
