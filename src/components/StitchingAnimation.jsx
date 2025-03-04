@@ -47,8 +47,8 @@ export const StitchingAnimation = () => {
         alt="Fading Image"
         className={`fade-in-image ${isVisible ? "visible" : ""}`}
         style={{
-          width: "90vw", // Full width of the viewport
-          height: "90vh", // Full height of the viewport
+          width: "70vw", // Full width of the viewport
+          height: "70vh", // Full height of the viewport
         }}
       />
 
