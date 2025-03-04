@@ -15,10 +15,14 @@ export const Gallery4 = () => {
     ];
 
     const images = [
-        { src: "/embroidery/embroidery-services-los-angeles-ca.webp", album: "Embroidery" },
+        { src: "/embroidery/dtla-los-angeles-custom-adaptation-clothing-fashion-embroidery-design-embroidered-black-denim-jacket.webp", album: "Embroidery" },
         { src: "/embroidery/custom-embroidered-denim-jacket-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/custom-embroidered-denim-jacket-selina-gomes.webp", album: "Embroidery" },
+        { src: "/embroidery/los-angekes-uniquye-embroidery-services.webp", album: "Embroidery" },
+        { src: "/embroidery/los-angekes-uniquye-embroidery-services-high-volume..webp", album: "Embroidery" },
+        { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
 
+        { src: "/embroidery/embroidery-services-los-angeles-ca.webp", album: "Embroidery" },
         { src: "/embroidery/custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/custom-hat-embroidery.webp", album: "Embroidery" },
         { src: "/embroidery/custom-bomber-jacket-embroidery.webp", album: "Embroidery" },
@@ -32,11 +36,12 @@ export const Gallery4 = () => {
         { src: "/embroidery/high-end-custom-embroidery-los-angeles.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-jacket.webp", album: "Embroidery" },
         { src: "/patches/dtla-los-angeles-custom-embroidery-travis-scott-custom-selebrity-hat-cap-snap-back-rodeo.webp", album: "Embroidery" },
-        { src: "/patches/dtla-los-angeles-custom-embroidery-travis-theweekend-the-weekend-selebrity-jacket.webp", album: "Embroidery" },
+       
         { src: "/embroidery/metalic-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/unique-apparel-embroidery-services-los-angeles..webp", album: "Embroidery" },
         { src: "/embroidery/unique-embroidery-services-los-angeles.webp", album: "Embroidery" },
         { src: "/embroidery/google-cloud-custom-embroidery-logo.webp", album: "Patches" },
+        { src: "/embroidery/LA-embroidety-Custom-Embroidery-design-Justin-Beaver-Pupose-Tour-Army-Military-Backpack.webp", album: "Patches" },
         
         { src: "/patches/american-flag-patches-bulk.webp", album: "Patches" },
         { src: "/patches/american-flag-patches-high-volume-production.webp", album: "Patches" },
