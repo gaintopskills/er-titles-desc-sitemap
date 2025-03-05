@@ -16,14 +16,14 @@ const videoData = [
   {
     id: "3",
     title: "Fresh Pet",
-    thumbnail: "/events-gallery/custom-embroidery-on-hats-event-los-angeles.webp",
+    thumbnail: "/events-gallery/embroidery/on-site-embroidery-events-custom-design.webp",
     url: "https://www.youtube.com/embed/fHHuXjv-FVU",
   },
   {
     id: "4",
-    title: "Altos Tequila",
-    thumbnail: "/events-gallery/custom-embroidery-on-hats-event-los-angeles.webp",
-    url: "https://www.youtube.com/embed/YX7RrMCnVfw",
+    title: "Twitch Con San Diego",
+    thumbnail: "/events-gallery/embroidery/on-site-embroidery-events-los-angeles.webp",
+    url: "https://www.youtube.com/embed/D5iHCJZ3gvg",
   },
   {
     id: "5",
