@@ -9,15 +9,15 @@ const videoData = [
   },
   {
     id: "2",
-    title: "Altos Tequila",
-    thumbnail: "/events-gallery/custom-embroidery-on-hats-event-los-angeles.webp",
-    url: "https://www.youtube.com/embed/YX7RrMCnVfw",
+    title: "ADCOLOR",
+    thumbnail: "/events-gallery/embroidery/onsite-embroydery-events-initials.webp",
+    url: "https://www.youtube.com/embed/JSM5EYdFlLo",
   },
   {
     id: "3",
-    title: "Altos Tequila",
+    title: "Fresh Pet",
     thumbnail: "/events-gallery/custom-embroidery-on-hats-event-los-angeles.webp",
-    url: "https://www.youtube.com/embed/YX7RrMCnVfw",
+    url: "https://www.youtube.com/embed/fHHuXjv-FVU",
   },
   {
     id: "4",
