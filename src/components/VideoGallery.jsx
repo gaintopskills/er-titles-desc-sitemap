@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const videoData = [
   {
     id: "1",
-    title: "Altos Tequila",
+    title: "Cymbaotika",
     thumbnail: "/events-gallery/embroidery/on-site-embroidery-events-at-my-venue.webp",
     url: "https://www.youtube.com/embed/fDrvZsqlJ78",
   },
