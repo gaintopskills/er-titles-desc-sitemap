@@ -42,11 +42,12 @@ export const StitchingAnimation = () => {
 
   return (
     <div className="image-container relative">
-      <img
+        <img
   src="/e-and-r-unlimited-custom-wholesale-embroidery-services.webp"
-  alt="Fading Image"
-  className={`fade-in-image ${isVisible ? "visible" : ""} w-[90vw] h-[90vh] md:w-[70vw] md:h-[70vh] object-cover`}
+  alt="E&R Unlimited Logo"
+  className={`fade-in-image ${isVisible ? "visible" : ""} max-w-[95vw] max-h-[95vh] md:max-w-[70vw] md:max-h-[70vh] object-cover`}
 />
+
 
       {/* Scroll Down Indicator (Appears After Image Loads) */}
       {showIndicator && (
