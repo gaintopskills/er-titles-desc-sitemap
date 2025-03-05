@@ -24,6 +24,7 @@ const images = [
   
 
   "../slider/onsite-embroidery-events.webp",
+  "../slider/custom-embroidery-events-setup.webp",
 ];
 
 // Custom captions corresponding to the images
