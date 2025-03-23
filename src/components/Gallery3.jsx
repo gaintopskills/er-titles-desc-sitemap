@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
 const images = [
-  "../slider/bulk-embroidery-services-los-angeles.webp",
-  "../slider/wholesale-embroidery-los-angeles.webp",
-  "../slider/custom-fashion-embroidey-services-los-angeles.webp",
-  "../slider/high-end-embroidery-los-angeles.webp",
-  "../slider/high-volume-embroidery-los-angeles.webp",
-  "../slider/deni-jacket-embroidery-los-angeles.webp",
-  "../slider/embroidery-on-towels-los-angeles.webp",
+  "../slider/custom-embroidery-patches-los-angeles.webp",
+  
+
+  "../slider/onsite-embroidery-events.webp",
+  "../slider/custom-embroidery-events-setup.webp",
+
 
   "../slider/la-cut-and-sew-services.webp",
   "../slider/los-angeles-cut-and-sew-services.webp",
@@ -19,14 +18,18 @@ const images = [
   "../slider/high-end-screen-printing-services-los-angeles.webp",
   "../slider/custom-screen-printing-services-los-angeles.webp",
 
+  "../slider/bulk-embroidery-services-los-angeles.webp",
+  "../slider/wholesale-embroidery-los-angeles.webp",
+  "../slider/custom-fashion-embroidey-services-los-angeles.webp",
+  "../slider/high-end-embroidery-los-angeles.webp",
+  "../slider/high-volume-embroidery-los-angeles.webp",
+  "../slider/deni-jacket-embroidery-los-angeles.webp",
+  "../slider/embroidery-on-towels-los-angeles.webp",
+
   "../slider/high-quality-patches-los-angeles.webp",
   "../slider/high-volume-paches-production-los-angeles.webp",
   "../slider/high-end-clothing-embelishment-services-los-angeles.webp",
-  "../slider/custom-embroidery-patches-los-angeles.webp",
-  
 
-  "../slider/onsite-embroidery-events.webp",
-  "../slider/custom-embroidery-events-setup.webp",
 ];
 
 // Custom captions corresponding to the images
