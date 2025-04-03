@@ -23,7 +23,7 @@ const navbarLinks = [
      
     ],
   },
-  { label: 'Galley', href: '../custom-embroidery-services', ariaLabel: 'Galley' },
+  { label: 'Gallery', href: '../custom-embroidery-services', ariaLabel: 'Gallery' },
   { label: 'Onsite Events', href: '/onsite-live-embroidery-events-los-angeles/', ariaLabel: 'Events' },
   { label: 'Free Quote', href: '/free-quote/', ariaLabel: 'Free Quote' },
   { label: 'About Us', href: '/about-us/', ariaLabel: 'About Us' },
