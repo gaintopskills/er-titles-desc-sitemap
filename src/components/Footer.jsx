@@ -30,7 +30,7 @@ const footerData = [
   {
     title: "Connect",
     items: [
-      { label: "3000 S. Santa Fe. Ave Unit B" },
+      { label: "3690 S. Santa Fe. Ave Unit B" },
     { label: "Vernon, CA 90058" },
       { label: "info@eandrunlimited.com", },
       {
