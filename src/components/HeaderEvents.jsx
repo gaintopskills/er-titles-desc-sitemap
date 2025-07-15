@@ -62,7 +62,7 @@ export const HeaderEvents = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-300 mt-4 drop-shadow-[0px_0px_10px_rgba(255,255,255,0.3)]">
-          Make a lasting impression on your guests with onsite embroidery or heat press events. Market your product with personalized giveaways!
+          Make a lasting impression on your guests with onsite embroidery, heat press, or screen printing events. Market your product with personalized giveaways!
           </p>
         </div>
       </div>
