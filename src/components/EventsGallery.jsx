@@ -48,9 +48,9 @@ export const EventsGallery = () => {
        { src: "/events-gallery/heat-press/on-site-heat-press-on-tote-bags.webp", album: "Heat Press" },
        { src: "/events-gallery/heat-press/on-site-heat-press-events-los-angeles.webp", album: "Heat Press" },
 
-       { src: "/events-gallery/heat-press/screen-printing-custom-events.webp", album: "Screen Printing" },
-       { src: "/events-gallery/heat-press/screen-printing-onsite.webp", album: "Screen Printing" },
-       { src: "/events-gallery/heat-press/screen-printing.webp", album: "Screen Printing" },
+       { src: "/events-gallery/screen-printing/screen-printing-custom-events.webp", album: "Screen Printing" },
+       { src: "/events-gallery/screen-printing/screen-printing-onsite.webp", album: "Screen Printing" },
+       { src: "/events-gallery/screen-printing/screen-printing.webp", album: "Screen Printing" },
       
    ];
 
